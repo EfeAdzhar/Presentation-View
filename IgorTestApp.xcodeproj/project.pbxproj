@@ -7,28 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B750D734BF1C3EF2772C9F8 /* libPods-IgorTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */; };
+		B44A6E002A7162C30032C33D /* TWKLausanne-550.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */; };
+		B44A6E012A7162C30032C33D /* TWKLausanne-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */; };
+		B44A6E022A7162C30032C33D /* TWKLausanne-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */; };
+		B44A6E032A7162C30032C33D /* TWKLausanne-250Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */; };
+		B44A6E042A7162C30032C33D /* TWKLausanne-1000Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */; };
+		B44A6E052A7162C30032C33D /* TWKLausanne-750.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */; };
+		B44A6E062A7162C30032C33D /* TWKLausanne-350.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */; };
+		B44A6E072A7162C30032C33D /* TWKLausanne-1000.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */; };
+		B44A6E082A7162C30032C33D /* TWKLausanne-750Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */; };
+		B44A6E092A7162C30032C33D /* TWKLausanne-200Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */; };
+		B44A6E0A2A7162C30032C33D /* TWKLausanne-150.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */; };
+		B44A6E0B2A7162C30032C33D /* TWKLausanne-450Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */; };
+		B44A6E0C2A7162C30032C33D /* TWKLausanne-100Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */; };
+		B44A6E0D2A7162C30032C33D /* TWKLausanne-650.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */; };
+		B44A6E0E2A7162C30032C33D /* TWKLausanne-800Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */; };
+		B44A6E0F2A7162C30032C33D /* TWKLausanne-450.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */; };
+		B44A6E102A7162C30032C33D /* TWKLausanne-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */; };
+		B44A6E112A7162C30032C33D /* TWKLausanne-850Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */; };
+		B44A6E122A7162C30032C33D /* TWKLausanne-50Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */; };
+		B44A6E132A7162C30032C33D /* TWKLausanne-250.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */; };
+		B44A6E142A7162C30032C33D /* TWKLausanne-400Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */; };
+		B44A6E152A7162C30032C33D /* TWKLausanne-150Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */; };
+		B44A6E162A7162C30032C33D /* TWKLausanne-300Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */; };
+		B44A6E172A7162C30032C33D /* TWKLausanne-650Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */; };
+		B44A6E182A7162C30032C33D /* TWKLausanne-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */; };
+		B44A6E192A7162C30032C33D /* TWKLausanne-100.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */; };
+		B44A6E1A2A7162C30032C33D /* TWKLausanne-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */; };
+		B44A6E1B2A7162C30032C33D /* TWKLausanne-850.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */; };
+		B44A6E1C2A7162C30032C33D /* TWKLausanne-50.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */; };
+		B44A6E1D2A7162C30032C33D /* TWKLausanne-350Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */; };
+		B44A6E1E2A7162C30032C33D /* TWKLausanne-600Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */; };
+		B44A6E1F2A7162C30032C33D /* TWKLausanne-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */; };
+		B44A6E202A7162C30032C33D /* TWKLausanne-500Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */; };
+		B44A6E212A7162C30032C33D /* TWKLausanne-200.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */; };
+		B44A6E222A7162C30032C33D /* TWKLausanne-950Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */; };
+		B44A6E232A7162C30032C33D /* TWKLausanne-600.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */; };
+		B44A6E242A7162C30032C33D /* TWKLausanne-900Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */; };
+		B44A6E252A7162C30032C33D /* TWKLausanne-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */; };
+		B44A6E262A7162C30032C33D /* TWKLausanne-950.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */; };
+		B44A6E272A7162C30032C33D /* TWKLausanne-550Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */; };
 		B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */; };
 		B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */; };
 		B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBC2A5DBE9F00F83153 /* Main.storyboard */; };
 		B4A02DC02A5DBEA100F83153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */; };
 		B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */; };
-		B4A02DCE2A5DBF3600F83153 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DCD2A5DBF3600F83153 /* User.swift */; };
-		B4A02DD42A5DBFDE00F83153 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD32A5DBFDE00F83153 /* UserService.swift */; };
-		B4A02DD62A5DBFEB00F83153 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */; };
 		B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */; };
-		B4A02DDA2A5DC90100F83153 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */; };
 		B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */; };
-		B4EAB7F92A609160001144DA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7F82A609160001144DA /* LogInViewController.swift */; };
 		B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */; };
 		B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */; };
 		B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */; };
 		B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */; };
-		B4EAB8082A65C381001144DA /* UserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8072A65C381001144DA /* UserDao.swift */; };
 		B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */; };
 		B4EAB80E2A695F79001144DA /* PresentationServiceDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgorTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgorTestApp.debug.xcconfig"; path = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestApp.entitlements; sourceTree = "<group>"; };
+		B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550.otf"; sourceTree = "<group>"; };
+		B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800.otf"; sourceTree = "<group>"; };
+		B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700Italic.otf"; sourceTree = "<group>"; };
+		B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250Italic.otf"; sourceTree = "<group>"; };
+		B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000Italic.otf"; sourceTree = "<group>"; };
+		B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750.otf"; sourceTree = "<group>"; };
+		B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350.otf"; sourceTree = "<group>"; };
+		B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000.otf"; sourceTree = "<group>"; };
+		B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750Italic.otf"; sourceTree = "<group>"; };
+		B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200Italic.otf"; sourceTree = "<group>"; };
+		B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150.otf"; sourceTree = "<group>"; };
+		B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450Italic.otf"; sourceTree = "<group>"; };
+		B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-100Italic.otf"; sourceTree = "<group>"; };
+		B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650.otf"; sourceTree = "<group>"; };
+		B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800Italic.otf"; sourceTree = "<group>"; };
+		B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450.otf"; sourceTree = "<group>"; };
+		B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900.otf"; sourceTree = "<group>"; };
+		B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850Italic.otf"; sourceTree = "<group>"; };
+		B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50Italic.otf"; sourceTree = "<group>"; };
+		B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250.otf"; sourceTree = "<group>"; };
+		B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400Italic.otf"; sourceTree = "<group>"; };
+		B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150Italic.otf"; sourceTree = "<group>"; };
+		B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300Italic.otf"; sourceTree = "<group>"; };
+		B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650Italic.otf"; sourceTree = "<group>"; };
+		B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300.otf"; sourceTree = "<group>"; };
+		B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-100.otf"; sourceTree = "<group>"; };
+		B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500.otf"; sourceTree = "<group>"; };
+		B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850.otf"; sourceTree = "<group>"; };
+		B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50.otf"; sourceTree = "<group>"; };
+		B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350Italic.otf"; sourceTree = "<group>"; };
+		B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600Italic.otf"; sourceTree = "<group>"; };
+		B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700.otf"; sourceTree = "<group>"; };
+		B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500Italic.otf"; sourceTree = "<group>"; };
+		B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200.otf"; sourceTree = "<group>"; };
+		B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950Italic.otf"; sourceTree = "<group>"; };
+		B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600.otf"; sourceTree = "<group>"; };
+		B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900Italic.otf"; sourceTree = "<group>"; };
+		B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400.otf"; sourceTree = "<group>"; };
+		B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950.otf"; sourceTree = "<group>"; };
+		B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550Italic.otf"; sourceTree = "<group>"; };
 		B4A02DB32A5DBE9F00F83153 /* IgorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,20 +114,16 @@
 		B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A02DC22A5DBEA100F83153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A02DC42A5DBEA100F83153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A02DCD2A5DBF3600F83153 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B4A02DD32A5DBFDE00F83153 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
-		B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenuViewController.swift; sourceTree = "<group>"; };
-		B4EAB7F82A609160001144DA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestAppRelease.entitlements; sourceTree = "<group>"; };
 		B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewService.swift; sourceTree = "<group>"; };
 		B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewRepository.swift; sourceTree = "<group>"; };
 		B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewExceptions.swift; sourceTree = "<group>"; };
-		B4EAB8072A65C381001144DA /* UserDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDao.swift; sourceTree = "<group>"; };
 		B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewDao.swift; sourceTree = "<group>"; };
 		B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationServiceDto.swift; sourceTree = "<group>"; };
+		D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgorTestApp.release.xcconfig"; path = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +131,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B750D734BF1C3EF2772C9F8 /* libPods-IgorTestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261D0B3EE45D32ABEAFE8DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A8A813009312C1AB5E45533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */,
+				D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B44A6DD72A7162C20032C33D /* Lausanne */ = {
+			isa = PBXGroup;
+			children = (
+				B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */,
+				B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */,
+				B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */,
+				B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */,
+				B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */,
+				B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */,
+				B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */,
+				B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */,
+				B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */,
+				B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */,
+				B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */,
+				B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */,
+				B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */,
+				B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */,
+				B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */,
+				B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */,
+				B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */,
+				B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */,
+				B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */,
+				B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */,
+				B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */,
+				B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */,
+				B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */,
+				B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */,
+				B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */,
+				B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */,
+				B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */,
+				B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */,
+				B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */,
+				B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */,
+				B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */,
+				B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */,
+				B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */,
+				B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */,
+				B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */,
+				B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */,
+				B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */,
+				B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */,
+				B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */,
+				B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */,
+			);
+			name = Lausanne;
+			path = ../../../Downloads/Lausanne;
+			sourceTree = "<group>";
+		};
 		B4A02DAA2A5DBE9F00F83153 = {
 			isa = PBXGroup;
 			children = (
 				B4A02DB52A5DBE9F00F83153 /* IgorTestApp */,
 				B4A02DB42A5DBE9F00F83153 /* Products */,
+				3A8A813009312C1AB5E45533 /* Pods */,
+				261D0B3EE45D32ABEAFE8DDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,12 +224,14 @@
 		B4A02DB52A5DBE9F00F83153 /* IgorTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */,
+				B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */,
+				B44A6DD72A7162C20032C33D /* Lausanne */,
 				B4EAB8032A6548ED001144DA /* exceptions */,
 				B4A02DD22A5DBFD100F83153 /* persistance */,
 				B4A02DD12A5DBFCB00F83153 /* service */,
 				B4A02DCC2A5DBEC600F83153 /* controller */,
 				B4A02DCB2A5DBEC100F83153 /* view */,
-				B4A02DCA2A5DBEBB00F83153 /* model */,
 				B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */,
 				B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */,
 				B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */,
@@ -96,14 +240,6 @@
 				B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */,
 			);
 			path = IgorTestApp;
-			sourceTree = "<group>";
-		};
-		B4A02DCA2A5DBEBB00F83153 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				B4A02DCD2A5DBF3600F83153 /* User.swift */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		B4A02DCB2A5DBEC100F83153 /* view */ = {
@@ -118,9 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */,
-				B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */,
 				B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */,
-				B4EAB7F82A609160001144DA /* LogInViewController.swift */,
 				B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */,
 			);
 			path = controller;
@@ -129,7 +263,6 @@
 		B4A02DD12A5DBFCB00F83153 /* service */ = {
 			isa = PBXGroup;
 			children = (
-				B4A02DD32A5DBFDE00F83153 /* UserService.swift */,
 				B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */,
 			);
 			path = service;
@@ -139,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				B4EAB8062A65C375001144DA /* dao */,
-				B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */,
 				B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */,
 			);
 			path = persistance;
@@ -156,7 +288,6 @@
 		B4EAB8062A65C375001144DA /* dao */ = {
 			isa = PBXGroup;
 			children = (
-				B4EAB8072A65C381001144DA /* UserDao.swift */,
 				B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */,
 			);
 			path = dao;
@@ -169,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A02DC72A5DBEA100F83153 /* Build configuration list for PBXNativeTarget "IgorTestApp" */;
 			buildPhases = (
+				82AE8CC008DD9EEC035AFF8A /* [CP] Check Pods Manifest.lock */,
 				B4A02DAF2A5DBE9F00F83153 /* Sources */,
 				B4A02DB02A5DBE9F00F83153 /* Frameworks */,
 				B4A02DB12A5DBE9F00F83153 /* Resources */,
@@ -206,6 +338,8 @@
 				Base,
 			);
 			mainGroup = B4A02DAA2A5DBE9F00F83153;
+			packageReferences = (
+			);
 			productRefGroup = B4A02DB42A5DBE9F00F83153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,32 +354,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44A6E082A7162C30032C33D /* TWKLausanne-750Italic.otf in Resources */,
+				B44A6E1B2A7162C30032C33D /* TWKLausanne-850.otf in Resources */,
+				B44A6E222A7162C30032C33D /* TWKLausanne-950Italic.otf in Resources */,
+				B44A6E0C2A7162C30032C33D /* TWKLausanne-100Italic.otf in Resources */,
+				B44A6E0D2A7162C30032C33D /* TWKLausanne-650.otf in Resources */,
+				B44A6E1E2A7162C30032C33D /* TWKLausanne-600Italic.otf in Resources */,
+				B44A6E062A7162C30032C33D /* TWKLausanne-350.otf in Resources */,
+				B44A6E142A7162C30032C33D /* TWKLausanne-400Italic.otf in Resources */,
+				B44A6E0E2A7162C30032C33D /* TWKLausanne-800Italic.otf in Resources */,
 				B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */,
+				B44A6E1C2A7162C30032C33D /* TWKLausanne-50.otf in Resources */,
+				B44A6E172A7162C30032C33D /* TWKLausanne-650Italic.otf in Resources */,
 				B4A02DC02A5DBEA100F83153 /* Assets.xcassets in Resources */,
+				B44A6E1F2A7162C30032C33D /* TWKLausanne-700.otf in Resources */,
+				B44A6E192A7162C30032C33D /* TWKLausanne-100.otf in Resources */,
+				B44A6E1D2A7162C30032C33D /* TWKLausanne-350Italic.otf in Resources */,
+				B44A6E0A2A7162C30032C33D /* TWKLausanne-150.otf in Resources */,
+				B44A6E0B2A7162C30032C33D /* TWKLausanne-450Italic.otf in Resources */,
+				B44A6E212A7162C30032C33D /* TWKLausanne-200.otf in Resources */,
+				B44A6E042A7162C30032C33D /* TWKLausanne-1000Italic.otf in Resources */,
+				B44A6E002A7162C30032C33D /* TWKLausanne-550.otf in Resources */,
+				B44A6E092A7162C30032C33D /* TWKLausanne-200Italic.otf in Resources */,
+				B44A6E162A7162C30032C33D /* TWKLausanne-300Italic.otf in Resources */,
+				B44A6E202A7162C30032C33D /* TWKLausanne-500Italic.otf in Resources */,
+				B44A6E182A7162C30032C33D /* TWKLausanne-300.otf in Resources */,
+				B44A6E242A7162C30032C33D /* TWKLausanne-900Italic.otf in Resources */,
+				B44A6E022A7162C30032C33D /* TWKLausanne-700Italic.otf in Resources */,
+				B44A6E152A7162C30032C33D /* TWKLausanne-150Italic.otf in Resources */,
+				B44A6E112A7162C30032C33D /* TWKLausanne-850Italic.otf in Resources */,
+				B44A6E232A7162C30032C33D /* TWKLausanne-600.otf in Resources */,
+				B44A6E032A7162C30032C33D /* TWKLausanne-250Italic.otf in Resources */,
+				B44A6E252A7162C30032C33D /* TWKLausanne-400.otf in Resources */,
+				B44A6E1A2A7162C30032C33D /* TWKLausanne-500.otf in Resources */,
 				B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */,
+				B44A6E0F2A7162C30032C33D /* TWKLausanne-450.otf in Resources */,
+				B44A6E052A7162C30032C33D /* TWKLausanne-750.otf in Resources */,
+				B44A6E262A7162C30032C33D /* TWKLausanne-950.otf in Resources */,
+				B44A6E272A7162C30032C33D /* TWKLausanne-550Italic.otf in Resources */,
+				B44A6E102A7162C30032C33D /* TWKLausanne-900.otf in Resources */,
+				B44A6E072A7162C30032C33D /* TWKLausanne-1000.otf in Resources */,
+				B44A6E122A7162C30032C33D /* TWKLausanne-50Italic.otf in Resources */,
+				B44A6E132A7162C30032C33D /* TWKLausanne-250.otf in Resources */,
+				B44A6E012A7162C30032C33D /* TWKLausanne-800.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82AE8CC008DD9EEC035AFF8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IgorTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4A02DAF2A5DBE9F00F83153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A02DCE2A5DBF3600F83153 /* User.swift in Sources */,
-				B4A02DD42A5DBFDE00F83153 /* UserService.swift in Sources */,
 				B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */,
-				B4EAB8082A65C381001144DA /* UserDao.swift in Sources */,
 				B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */,
-				B4A02DD62A5DBFEB00F83153 /* UserRepository.swift in Sources */,
 				B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */,
-				B4A02DDA2A5DC90100F83153 /* SignUpViewController.swift in Sources */,
 				B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */,
 				B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */,
 				B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */,
 				B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */,
-				B4EAB7F92A609160001144DA /* LogInViewController.swift in Sources */,
 				B4EAB80E2A695F79001144DA /* PresentationServiceDto.swift in Sources */,
 				B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */,
 				B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */,
@@ -390,9 +583,12 @@
 		};
 		B4A02DC82A5DBEA100F83153 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IgorTestApp/IgorTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YWRL64VCF;
@@ -410,6 +606,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = EfeAdzhar.IgorTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,9 +615,12 @@
 		};
 		B4A02DC92A5DBEA100F83153 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IgorTestApp/IgorTestAppRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YWRL64VCF;
@@ -438,6 +638,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = EfeAdzhar.IgorTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

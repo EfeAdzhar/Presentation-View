@@ -31,7 +31,13 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
+<<<<<<< HEAD
             endingLineNumber = "81">
+=======
+            endingLineNumber = "81"
+            landmarkName = "addImageToScrollView(_:)"
+            landmarkType = "7">
+>>>>>>> latest_version
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -45,7 +51,13 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "82"
+<<<<<<< HEAD
             endingLineNumber = "82">
+=======
+            endingLineNumber = "82"
+            landmarkName = "addImageToScrollView(_:)"
+            landmarkType = "7">
+>>>>>>> latest_version
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

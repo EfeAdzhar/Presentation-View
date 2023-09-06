@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import UIKit
+
+class AppMenuViewController : UIViewController {
+    @IBOutlet private weak var backButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    @IBAction func backButtonPressed(_ sender: UIButton) {
+        if(sender.isTouchInside) {
+            self.dismiss(animated: true)
+        }
+    }
+}
