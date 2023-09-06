@@ -18,12 +18,7 @@ class IntroViewController : UIViewController {
     }
 
     @IBAction func signInButtonPressed(_ sender: UIButton) {
-        if(sender.isTouchInside) {
-            let signInView = self.storyboard?.instantiateViewController(withIdentifier: "signInViewController") as! SignUpViewController
-            signInView.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal
-            signInView.modalPresentationStyle = UIModalPresentationStyle.fullScreen
-            self.present(signInView, animated: true, completion: nil)
-        }
+//   Here should be Sign In With Apple logic
     }
     
     private func setUpIntroViewControllerElementsFont() {

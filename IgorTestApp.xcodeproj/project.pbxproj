@@ -53,18 +53,12 @@
 		B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBC2A5DBE9F00F83153 /* Main.storyboard */; };
 		B4A02DC02A5DBEA100F83153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */; };
 		B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */; };
-		B4A02DCE2A5DBF3600F83153 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DCD2A5DBF3600F83153 /* User.swift */; };
-		B4A02DD42A5DBFDE00F83153 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD32A5DBFDE00F83153 /* UserService.swift */; };
-		B4A02DD62A5DBFEB00F83153 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */; };
 		B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */; };
-		B4A02DDA2A5DC90100F83153 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */; };
 		B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */; };
-		B4EAB7F92A609160001144DA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7F82A609160001144DA /* LogInViewController.swift */; };
 		B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */; };
 		B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */; };
 		B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */; };
 		B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */; };
-		B4EAB8082A65C381001144DA /* UserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8072A65C381001144DA /* UserDao.swift */; };
 		B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */; };
 		B4EAB80E2A695F79001144DA /* PresentationServiceDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */; };
 /* End PBXBuildFile section */
@@ -120,19 +114,13 @@
 		B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A02DC22A5DBEA100F83153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A02DC42A5DBEA100F83153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A02DCD2A5DBF3600F83153 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B4A02DD32A5DBFDE00F83153 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
-		B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenuViewController.swift; sourceTree = "<group>"; };
 		B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestAppRelease.entitlements; sourceTree = "<group>"; };
-		B4EAB7F82A609160001144DA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewService.swift; sourceTree = "<group>"; };
 		B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewRepository.swift; sourceTree = "<group>"; };
 		B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewExceptions.swift; sourceTree = "<group>"; };
-		B4EAB8072A65C381001144DA /* UserDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDao.swift; sourceTree = "<group>"; };
 		B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewDao.swift; sourceTree = "<group>"; };
 		B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationServiceDto.swift; sourceTree = "<group>"; };
 		D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgorTestApp.release.xcconfig"; path = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -244,7 +232,6 @@
 				B4A02DD12A5DBFCB00F83153 /* service */,
 				B4A02DCC2A5DBEC600F83153 /* controller */,
 				B4A02DCB2A5DBEC100F83153 /* view */,
-				B4A02DCA2A5DBEBB00F83153 /* model */,
 				B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */,
 				B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */,
 				B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */,
@@ -253,14 +240,6 @@
 				B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */,
 			);
 			path = IgorTestApp;
-			sourceTree = "<group>";
-		};
-		B4A02DCA2A5DBEBB00F83153 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				B4A02DCD2A5DBF3600F83153 /* User.swift */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		B4A02DCB2A5DBEC100F83153 /* view */ = {
@@ -275,9 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */,
-				B4A02DD92A5DC90100F83153 /* SignUpViewController.swift */,
 				B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */,
-				B4EAB7F82A609160001144DA /* LogInViewController.swift */,
 				B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */,
 			);
 			path = controller;
@@ -286,7 +263,6 @@
 		B4A02DD12A5DBFCB00F83153 /* service */ = {
 			isa = PBXGroup;
 			children = (
-				B4A02DD32A5DBFDE00F83153 /* UserService.swift */,
 				B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */,
 			);
 			path = service;
@@ -296,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				B4EAB8062A65C375001144DA /* dao */,
-				B4A02DD52A5DBFEB00F83153 /* UserRepository.swift */,
 				B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */,
 			);
 			path = persistance;
@@ -313,7 +288,6 @@
 		B4EAB8062A65C375001144DA /* dao */ = {
 			isa = PBXGroup;
 			children = (
-				B4EAB8072A65C381001144DA /* UserDao.swift */,
 				B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */,
 			);
 			path = dao;
@@ -458,19 +432,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A02DCE2A5DBF3600F83153 /* User.swift in Sources */,
-				B4A02DD42A5DBFDE00F83153 /* UserService.swift in Sources */,
 				B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */,
-				B4EAB8082A65C381001144DA /* UserDao.swift in Sources */,
 				B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */,
-				B4A02DD62A5DBFEB00F83153 /* UserRepository.swift in Sources */,
 				B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */,
-				B4A02DDA2A5DC90100F83153 /* SignUpViewController.swift in Sources */,
 				B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */,
 				B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */,
 				B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */,
 				B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */,
-				B4EAB7F92A609160001144DA /* LogInViewController.swift in Sources */,
 				B4EAB80E2A695F79001144DA /* PresentationServiceDto.swift in Sources */,
 				B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */,
 				B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */,
