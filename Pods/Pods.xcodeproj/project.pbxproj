@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356A5FF98E9FCC7735B6D92B9E30DCCD /* ScrollableStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA31EB927C882BCB0713DB0F7CA32ED /* ScrollableStackView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60036830A60BFC809A3910F134BA659D /* ScrollableStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62813614067E996370F94DD7375B8FAC /* ScrollableStackView-dummy.m */; };
+		66F44C1EFD90DA3152E656E16D800164 /* Pods-IgorTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1748DB33B2FF5C32FCF62D3DF5E1942 /* Pods-IgorTestApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A4E574FCB9D399989F73F8C8DA61471 /* ScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBF5A346F46B279ACF24027BC76A35 /* ScrollableStackView.swift */; };
+		9399C8C65A007BAFA7B378FFE9EE2837 /* Pods-IgorTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3756C26A3254DAEB4557EE82CE7885 /* Pods-IgorTestApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A66AE17DE2E91A183ADED5547525950D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DBC751A1B881FEA166C5EC42E92737;
+			remoteInfo = ScrollableStackView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15FBF5A346F46B279ACF24027BC76A35 /* ScrollableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableStackView.swift; path = ScrollableStackView/Classes/ScrollableStackView.swift; sourceTree = "<group>"; };
+		2FA31EB927C882BCB0713DB0F7CA32ED /* ScrollableStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-umbrella.h"; sourceTree = "<group>"; };
+		3BCE6A7A343B4DB7D080BA37155092BE /* Pods-IgorTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgorTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		3C3756C26A3254DAEB4557EE82CE7885 /* Pods-IgorTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IgorTestApp-dummy.m"; sourceTree = "<group>"; };
+		4704F457E1F69D165ED454556EAB8F09 /* Pods-IgorTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IgorTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48E328FF97DB56FD9941AED712D11BE5 /* Pods-IgorTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IgorTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		503CDD1221F6A04DFC58B6BDA903E726 /* Pods-IgorTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IgorTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		546E9010373F8BB42E82A31493B6EBC7 /* ScrollableStackView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableStackView.debug.xcconfig; sourceTree = "<group>"; };
+		56579E2B75F68C1C9AF065B165E56DC5 /* ScrollableStackView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableStackView.release.xcconfig; sourceTree = "<group>"; };
+		5F48253044BE24118E5259986D06D950 /* ScrollableStackView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ScrollableStackView; path = libScrollableStackView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62813614067E996370F94DD7375B8FAC /* ScrollableStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableStackView-dummy.m"; sourceTree = "<group>"; };
+		650569B3EC8F27DCAA347CA12AF07FB6 /* Pods-IgorTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IgorTestApp.modulemap"; sourceTree = "<group>"; };
+		8A60E524097B376E733F01E345395C14 /* ScrollableStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableStackView.modulemap; sourceTree = "<group>"; };
+		998160FAC8C9E70ADAD07A20269BB1DF /* Pods-IgorTestApp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-IgorTestApp"; path = "libPods-IgorTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1748DB33B2FF5C32FCF62D3DF5E1942 /* Pods-IgorTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IgorTestApp-umbrella.h"; sourceTree = "<group>"; };
+		B72516B93A4A0BC69E53B996B8FAE82A /* ScrollableStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableStackView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C9834F08AEA7C371C9E67EEEB0F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EB32D8379DA5B12BAA06F4C9B8689E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31EC16782E682ADD9DC68BA348BD9B18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4353E3593B9CE1EBC632650629BA0C /* Pods-IgorTestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D4353E3593B9CE1EBC632650629BA0C /* Pods-IgorTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				650569B3EC8F27DCAA347CA12AF07FB6 /* Pods-IgorTestApp.modulemap */,
+				4704F457E1F69D165ED454556EAB8F09 /* Pods-IgorTestApp-acknowledgements.markdown */,
+				503CDD1221F6A04DFC58B6BDA903E726 /* Pods-IgorTestApp-acknowledgements.plist */,
+				3C3756C26A3254DAEB4557EE82CE7885 /* Pods-IgorTestApp-dummy.m */,
+				B1748DB33B2FF5C32FCF62D3DF5E1942 /* Pods-IgorTestApp-umbrella.h */,
+				48E328FF97DB56FD9941AED712D11BE5 /* Pods-IgorTestApp.debug.xcconfig */,
+				3BCE6A7A343B4DB7D080BA37155092BE /* Pods-IgorTestApp.release.xcconfig */,
+			);
+			name = "Pods-IgorTestApp";
+			path = "Target Support Files/Pods-IgorTestApp";
+			sourceTree = "<group>";
+		};
+		5F63A51AF94F6F87CEC4D79171F77A04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5EA48C62CC138D76EC8A5E98D437C /* ScrollableStackView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6972B301D04A48F9E8F92F4C111F2DB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A60E524097B376E733F01E345395C14 /* ScrollableStackView.modulemap */,
+				62813614067E996370F94DD7375B8FAC /* ScrollableStackView-dummy.m */,
+				B72516B93A4A0BC69E53B996B8FAE82A /* ScrollableStackView-prefix.pch */,
+				2FA31EB927C882BCB0713DB0F7CA32ED /* ScrollableStackView-umbrella.h */,
+				546E9010373F8BB42E82A31493B6EBC7 /* ScrollableStackView.debug.xcconfig */,
+				56579E2B75F68C1C9AF065B165E56DC5 /* ScrollableStackView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScrollableStackView";
+			sourceTree = "<group>";
+		};
+		BEF5EA48C62CC138D76EC8A5E98D437C /* ScrollableStackView */ = {
+			isa = PBXGroup;
+			children = (
+				15FBF5A346F46B279ACF24027BC76A35 /* ScrollableStackView.swift */,
+				6972B301D04A48F9E8F92F4C111F2DB9 /* Support Files */,
+			);
+			name = ScrollableStackView;
+			path = ScrollableStackView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				5F63A51AF94F6F87CEC4D79171F77A04 /* Pods */,
+				E19985D4F50C84FB1EBCFB84F087DE67 /* Products */,
+				31EC16782E682ADD9DC68BA348BD9B18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E19985D4F50C84FB1EBCFB84F087DE67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998160FAC8C9E70ADAD07A20269BB1DF /* Pods-IgorTestApp */,
+				5F48253044BE24118E5259986D06D950 /* ScrollableStackView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E9F41E84FABDBB2D8FF25CEE72EB128 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A5FF98E9FCC7735B6D92B9E30DCCD /* ScrollableStackView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88AE738045EF21AA2BA2D42CAB99C32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F44C1EFD90DA3152E656E16D800164 /* Pods-IgorTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63B3578851832F388BBA8F760E9901CA /* Pods-IgorTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC7F048D65ED273FE38409DA13C244E /* Build configuration list for PBXNativeTarget "Pods-IgorTestApp" */;
+			buildPhases = (
+				C88AE738045EF21AA2BA2D42CAB99C32 /* Headers */,
+				F15D25E929C80B213749567840687F0D /* Sources */,
+				12C9834F08AEA7C371C9E67EEEB0F08C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C4A92F82F1D7CD8FE25F8FDCC4B6B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-IgorTestApp";
+			productName = "Pods-IgorTestApp";
+			productReference = 998160FAC8C9E70ADAD07A20269BB1DF /* Pods-IgorTestApp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3DBC751A1B881FEA166C5EC42E92737 /* ScrollableStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB37AF73648294920E800FA15A87BB6C /* Build configuration list for PBXNativeTarget "ScrollableStackView" */;
+			buildPhases = (
+				7E9F41E84FABDBB2D8FF25CEE72EB128 /* Headers */,
+				678AC130B085B6FF08A983446A0DB4FA /* Sources */,
+				C2EB32D8379DA5B12BAA06F4C9B8689E /* Frameworks */,
+				F5A1182641FE7630E34FE827BDD4EF2C /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableStackView;
+			productName = ScrollableStackView;
+			productReference = 5F48253044BE24118E5259986D06D950 /* ScrollableStackView */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E19985D4F50C84FB1EBCFB84F087DE67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B3578851832F388BBA8F760E9901CA /* Pods-IgorTestApp */,
+				E3DBC751A1B881FEA166C5EC42E92737 /* ScrollableStackView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5A1182641FE7630E34FE827BDD4EF2C /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ScrollableStackView/ScrollableStackView.modulemap",
+				"${PODS_ROOT}/Headers/Public/ScrollableStackView/ScrollableStackView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ScrollableStackView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ScrollableStackView/ScrollableStackView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ScrollableStackView/ScrollableStackView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678AC130B085B6FF08A983446A0DB4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4E574FCB9D399989F73F8C8DA61471 /* ScrollableStackView.swift in Sources */,
+				60036830A60BFC809A3910F134BA659D /* ScrollableStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15D25E929C80B213749567840687F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9399C8C65A007BAFA7B378FFE9EE2837 /* Pods-IgorTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C4A92F82F1D7CD8FE25F8FDCC4B6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollableStackView;
+			target = E3DBC751A1B881FEA166C5EC42E92737 /* ScrollableStackView */;
+			targetProxy = A66AE17DE2E91A183ADED5547525950D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3722BB3A39C8E37907247FC69B27CD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56579E2B75F68C1C9AF065B165E56DC5 /* ScrollableStackView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableStackView/ScrollableStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/ScrollableStackView/ScrollableStackView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ScrollableStackView;
+				PRODUCT_NAME = ScrollableStackView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5142BE071CCF00674488CD1BDD89C6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E328FF97DB56FD9941AED712D11BE5 /* Pods-IgorTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C92DDCCC242D5F85F481E09CA59B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546E9010373F8BB42E82A31493B6EBC7 /* ScrollableStackView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableStackView/ScrollableStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/ScrollableStackView/ScrollableStackView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ScrollableStackView;
+				PRODUCT_NAME = ScrollableStackView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DADC10DA13AE5227D0BC51BF51699A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCE6A7A343B4DB7D080BA37155092BE /* Pods-IgorTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC7F048D65ED273FE38409DA13C244E /* Build configuration list for PBXNativeTarget "Pods-IgorTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5142BE071CCF00674488CD1BDD89C6C9 /* Debug */,
+				DADC10DA13AE5227D0BC51BF51699A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB37AF73648294920E800FA15A87BB6C /* Build configuration list for PBXNativeTarget "ScrollableStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C92DDCCC242D5F85F481E09CA59B1E /* Debug */,
+				3722BB3A39C8E37907247FC69B27CD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
