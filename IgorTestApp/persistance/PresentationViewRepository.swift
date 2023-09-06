@@ -16,8 +16,8 @@ class PresentationViewRepository {
         if(!dao.getTitleTextArray().isEmpty
            && !dao.getMainTextArray().isEmpty) {
             if(!dao.getViewImageArray().isEmpty) {
-            return [dao.removeAndGetTitleText() :
-                        [dao.removeAndGetMainText()  : dao.removeAndGetViewImage()]]
+                return [dao.removeAndGetTitleText() :
+                            [dao.removeAndGetMainText()  : dao.removeAndGetViewImage()]]
             } else {
                 return [dao.removeAndGetTitleText() :
                             [dao.removeAndGetMainText()  : [Optional.none]]]

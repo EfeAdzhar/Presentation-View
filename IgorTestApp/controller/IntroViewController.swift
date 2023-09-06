@@ -16,9 +16,9 @@ class IntroViewController : UIViewController {
         super.viewDidLoad()
         setUpIntroViewControllerElementsFont()
     }
-
+    
     @IBAction func signInButtonPressed(_ sender: UIButton) {
-//   Here should be Sign In With Apple logic
+        //   Here should be Sign In With Apple logic
     }
     
     private func setUpIntroViewControllerElementsFont() {

@@ -32,15 +32,15 @@ class PresentationViewController : UIViewController, UIScrollViewDelegate {
                     if(imageV[0] != nil) {
                         addImageToScrollView(imageV)
                     } else {
-                    //Sub view of a sub view
+                        //Sub view of a sub view
                         let tableSubView = subView.subviews.filter {$0 == tableVIew}
                         if ((tableSubView.first?.isEqual(tableVIew)) != nil) {
                             subView.willRemoveSubview(tableSubView.first!)
                             subView.addSubview(creatingCollectionView())
                             subView.backgroundColor = .darkGray
                         } else {
-                           subView.subviews.forEach { subViewsOfSubView in
-                               subViewsOfSubView.removeFromSuperview()
+                            subView.subviews.forEach { subViewsOfSubView in
+                                subViewsOfSubView.removeFromSuperview()
                             }
                             createTableView()
                         }
@@ -81,7 +81,7 @@ extension PresentationViewController  {
             image.removeFromSuperview()
         }
         scrollView.removeFromSuperview()
-                subView.addSubview(scrollView)
+        subView.addSubview(scrollView)
         
         scrollView.contentSize = CGSize(width: Int(subView.bounds.width) * imageString.count, height: 200)
         
@@ -92,9 +92,9 @@ extension PresentationViewController  {
             itemImageView.backgroundColor = .gray
             itemImageView.layer.cornerRadius = 20
             if(imageString.count > 1) {
-            imageViewBounds.origin.x += imageViewBounds.size.width + 10
+                imageViewBounds.origin.x += imageViewBounds.size.width + 10
                 itemImageView.bounds.size.width = 370
-            scrollView.addSubview(itemImageView)
+                scrollView.addSubview(itemImageView)
             } else {
                 scrollView.addSubview(itemImageView)
             }

@@ -17,11 +17,11 @@ class PresentationViewDao {
     }()
     
     private var titleText : [String] = [
-                                        "Kickoff",
-                                        "Room Scan",
-                                        "Design",
-                                        "Configure",
-                                        "Order"
+        "Kickoff",
+        "Room Scan",
+        "Design",
+        "Configure",
+        "Order"
     ]
     private var mainText : [String] = [
         "Share your bathroom renovation goals",
@@ -32,8 +32,8 @@ class PresentationViewDao {
     ]
     
     private var viewImages : [[String]] = [["item.png"],
-                                     ["item.png", "item.png", "item.png"],
-                                     ["item.png","item.png", "item.png", "item.png", "item.png"]]
+                                           ["item.png", "item.png", "item.png"],
+                                           ["item.png","item.png", "item.png", "item.png", "item.png"]]
     
     public func getTitleTextArray() -> [String] {
         return titleText
