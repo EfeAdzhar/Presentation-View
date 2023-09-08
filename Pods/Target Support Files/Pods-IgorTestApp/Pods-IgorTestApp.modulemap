@@ -1,6 +1,0 @@
-module Pods_IgorTestApp {
-  umbrella header "Pods-IgorTestApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

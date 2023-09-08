@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B750D734BF1C3EF2772C9F8 /* libPods-IgorTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */; };
 		B44A6E002A7162C30032C33D /* TWKLausanne-550.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */; };
 		B44A6E012A7162C30032C33D /* TWKLausanne-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */; };
 		B44A6E022A7162C30032C33D /* TWKLausanne-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */; };
@@ -64,8 +63,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IgorTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgorTestApp.debug.xcconfig"; path = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestApp.entitlements; sourceTree = "<group>"; };
 		B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550.otf"; sourceTree = "<group>"; };
 		B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800.otf"; sourceTree = "<group>"; };
@@ -123,7 +120,6 @@
 		B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewExceptions.swift; sourceTree = "<group>"; };
 		B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewDao.swift; sourceTree = "<group>"; };
 		B4EAB80D2A695F79001144DA /* PresentationServiceDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationServiceDto.swift; sourceTree = "<group>"; };
-		D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IgorTestApp.release.xcconfig"; path = "Target Support Files/Pods-IgorTestApp/Pods-IgorTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,26 +127,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B750D734BF1C3EF2772C9F8 /* libPods-IgorTestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		261D0B3EE45D32ABEAFE8DDB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1CEFB0DA8744775C8AB428A7 /* libPods-IgorTestApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3A8A813009312C1AB5E45533 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */,
-				D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -209,7 +194,6 @@
 				B4A02DB52A5DBE9F00F83153 /* IgorTestApp */,
 				B4A02DB42A5DBE9F00F83153 /* Products */,
 				3A8A813009312C1AB5E45533 /* Pods */,
-				261D0B3EE45D32ABEAFE8DDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -300,7 +284,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A02DC72A5DBEA100F83153 /* Build configuration list for PBXNativeTarget "IgorTestApp" */;
 			buildPhases = (
-				82AE8CC008DD9EEC035AFF8A /* [CP] Check Pods Manifest.lock */,
 				B4A02DAF2A5DBE9F00F83153 /* Sources */,
 				B4A02DB02A5DBE9F00F83153 /* Frameworks */,
 				B4A02DB12A5DBE9F00F83153 /* Resources */,
@@ -338,8 +321,6 @@
 				Base,
 			);
 			mainGroup = B4A02DAA2A5DBE9F00F83153;
-			packageReferences = (
-			);
 			productRefGroup = B4A02DB42A5DBE9F00F83153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -401,31 +382,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		82AE8CC008DD9EEC035AFF8A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IgorTestApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4A02DAF2A5DBE9F00F83153 /* Sources */ = {
@@ -583,7 +539,6 @@
 		};
 		B4A02DC82A5DBEA100F83153 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FBC019FD44E7FACCD93E7AA /* Pods-IgorTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -615,7 +570,6 @@
 		};
 		B4A02DC92A5DBEA100F83153 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D42F7CDF2927433CEBFAAFBB /* Pods-IgorTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
