@@ -7,46 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B44A6E002A7162C30032C33D /* TWKLausanne-550.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */; };
-		B44A6E012A7162C30032C33D /* TWKLausanne-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */; };
-		B44A6E022A7162C30032C33D /* TWKLausanne-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */; };
-		B44A6E032A7162C30032C33D /* TWKLausanne-250Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */; };
-		B44A6E042A7162C30032C33D /* TWKLausanne-1000Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */; };
-		B44A6E052A7162C30032C33D /* TWKLausanne-750.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */; };
-		B44A6E062A7162C30032C33D /* TWKLausanne-350.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */; };
-		B44A6E072A7162C30032C33D /* TWKLausanne-1000.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */; };
-		B44A6E082A7162C30032C33D /* TWKLausanne-750Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */; };
-		B44A6E092A7162C30032C33D /* TWKLausanne-200Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */; };
-		B44A6E0A2A7162C30032C33D /* TWKLausanne-150.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */; };
-		B44A6E0B2A7162C30032C33D /* TWKLausanne-450Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */; };
-		B44A6E0C2A7162C30032C33D /* TWKLausanne-100Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */; };
-		B44A6E0D2A7162C30032C33D /* TWKLausanne-650.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */; };
-		B44A6E0E2A7162C30032C33D /* TWKLausanne-800Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */; };
-		B44A6E0F2A7162C30032C33D /* TWKLausanne-450.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */; };
-		B44A6E102A7162C30032C33D /* TWKLausanne-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */; };
-		B44A6E112A7162C30032C33D /* TWKLausanne-850Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */; };
-		B44A6E122A7162C30032C33D /* TWKLausanne-50Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */; };
-		B44A6E132A7162C30032C33D /* TWKLausanne-250.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */; };
-		B44A6E142A7162C30032C33D /* TWKLausanne-400Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */; };
-		B44A6E152A7162C30032C33D /* TWKLausanne-150Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */; };
-		B44A6E162A7162C30032C33D /* TWKLausanne-300Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */; };
-		B44A6E172A7162C30032C33D /* TWKLausanne-650Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */; };
-		B44A6E182A7162C30032C33D /* TWKLausanne-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */; };
-		B44A6E192A7162C30032C33D /* TWKLausanne-100.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */; };
-		B44A6E1A2A7162C30032C33D /* TWKLausanne-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */; };
-		B44A6E1B2A7162C30032C33D /* TWKLausanne-850.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */; };
-		B44A6E1C2A7162C30032C33D /* TWKLausanne-50.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */; };
-		B44A6E1D2A7162C30032C33D /* TWKLausanne-350Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */; };
-		B44A6E1E2A7162C30032C33D /* TWKLausanne-600Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */; };
-		B44A6E1F2A7162C30032C33D /* TWKLausanne-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */; };
-		B44A6E202A7162C30032C33D /* TWKLausanne-500Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */; };
-		B44A6E212A7162C30032C33D /* TWKLausanne-200.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */; };
-		B44A6E222A7162C30032C33D /* TWKLausanne-950Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */; };
-		B44A6E232A7162C30032C33D /* TWKLausanne-600.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */; };
-		B44A6E242A7162C30032C33D /* TWKLausanne-900Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */; };
-		B44A6E252A7162C30032C33D /* TWKLausanne-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */; };
-		B44A6E262A7162C30032C33D /* TWKLausanne-950.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */; };
-		B44A6E272A7162C30032C33D /* TWKLausanne-550Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */; };
+		B42115AD2AAB821000D8D89E /* TWKLausanne-550.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115862AAB820F00D8D89E /* TWKLausanne-550.otf */; };
+		B42115AE2AAB821000D8D89E /* TWKLausanne-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115872AAB820F00D8D89E /* TWKLausanne-800.otf */; };
+		B42115AF2AAB821000D8D89E /* TWKLausanne-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115882AAB820F00D8D89E /* TWKLausanne-700Italic.otf */; };
+		B42115B02AAB821000D8D89E /* TWKLausanne-250Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115892AAB820F00D8D89E /* TWKLausanne-250Italic.otf */; };
+		B42115B12AAB821000D8D89E /* TWKLausanne-1000Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158A2AAB820F00D8D89E /* TWKLausanne-1000Italic.otf */; };
+		B42115B22AAB821000D8D89E /* TWKLausanne-750.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158B2AAB820F00D8D89E /* TWKLausanne-750.otf */; };
+		B42115B32AAB821000D8D89E /* TWKLausanne-350.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158C2AAB820F00D8D89E /* TWKLausanne-350.otf */; };
+		B42115B42AAB821000D8D89E /* TWKLausanne-1000.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158D2AAB820F00D8D89E /* TWKLausanne-1000.otf */; };
+		B42115B52AAB821000D8D89E /* TWKLausanne-750Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158E2AAB820F00D8D89E /* TWKLausanne-750Italic.otf */; };
+		B42115B62AAB821000D8D89E /* TWKLausanne-200Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421158F2AAB820F00D8D89E /* TWKLausanne-200Italic.otf */; };
+		B42115B72AAB821000D8D89E /* TWKLausanne-150.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115902AAB820F00D8D89E /* TWKLausanne-150.otf */; };
+		B42115B82AAB821000D8D89E /* TWKLausanne-450Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115912AAB820F00D8D89E /* TWKLausanne-450Italic.otf */; };
+		B42115B92AAB821000D8D89E /* TWKLausanne-100Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115922AAB820F00D8D89E /* TWKLausanne-100Italic.otf */; };
+		B42115BA2AAB821000D8D89E /* TWKLausanne-650.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115932AAB820F00D8D89E /* TWKLausanne-650.otf */; };
+		B42115BB2AAB821000D8D89E /* TWKLausanne-800Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115942AAB820F00D8D89E /* TWKLausanne-800Italic.otf */; };
+		B42115BC2AAB821000D8D89E /* TWKLausanne-450.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115952AAB820F00D8D89E /* TWKLausanne-450.otf */; };
+		B42115BD2AAB821000D8D89E /* TWKLausanne-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115962AAB820F00D8D89E /* TWKLausanne-900.otf */; };
+		B42115BE2AAB821000D8D89E /* TWKLausanne-850Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115972AAB820F00D8D89E /* TWKLausanne-850Italic.otf */; };
+		B42115BF2AAB821000D8D89E /* TWKLausanne-50Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115982AAB820F00D8D89E /* TWKLausanne-50Italic.otf */; };
+		B42115C02AAB821000D8D89E /* TWKLausanne-250.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115992AAB820F00D8D89E /* TWKLausanne-250.otf */; };
+		B42115C12AAB821000D8D89E /* TWKLausanne-400Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159A2AAB820F00D8D89E /* TWKLausanne-400Italic.otf */; };
+		B42115C22AAB821000D8D89E /* TWKLausanne-150Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159B2AAB820F00D8D89E /* TWKLausanne-150Italic.otf */; };
+		B42115C32AAB821000D8D89E /* TWKLausanne-300Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159C2AAB820F00D8D89E /* TWKLausanne-300Italic.otf */; };
+		B42115C42AAB821000D8D89E /* TWKLausanne-650Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159D2AAB820F00D8D89E /* TWKLausanne-650Italic.otf */; };
+		B42115C52AAB821000D8D89E /* TWKLausanne-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159E2AAB820F00D8D89E /* TWKLausanne-300.otf */; };
+		B42115C62AAB821000D8D89E /* TWKLausanne-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = B421159F2AAB820F00D8D89E /* TWKLausanne-500.otf */; };
+		B42115C72AAB821000D8D89E /* TWKLausanne-850.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A02AAB820F00D8D89E /* TWKLausanne-850.otf */; };
+		B42115C82AAB821000D8D89E /* TWKLausanne-50.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A12AAB820F00D8D89E /* TWKLausanne-50.otf */; };
+		B42115C92AAB821000D8D89E /* TWKLausanne-350Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A22AAB820F00D8D89E /* TWKLausanne-350Italic.otf */; };
+		B42115CA2AAB821000D8D89E /* TWKLausanne-600Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A32AAB820F00D8D89E /* TWKLausanne-600Italic.otf */; };
+		B42115CB2AAB821000D8D89E /* TWKLausanne-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A42AAB820F00D8D89E /* TWKLausanne-700.otf */; };
+		B42115CC2AAB821000D8D89E /* TWKLausanne-500Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A52AAB820F00D8D89E /* TWKLausanne-500Italic.otf */; };
+		B42115CD2AAB821000D8D89E /* TWKLausanne-200.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A62AAB820F00D8D89E /* TWKLausanne-200.otf */; };
+		B42115CE2AAB821000D8D89E /* TWKLausanne-950Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A72AAB820F00D8D89E /* TWKLausanne-950Italic.otf */; };
+		B42115CF2AAB821000D8D89E /* TWKLausanne-600.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A82AAB820F00D8D89E /* TWKLausanne-600.otf */; };
+		B42115D02AAB821000D8D89E /* TWKLausanne-900Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115A92AAB820F00D8D89E /* TWKLausanne-900Italic.otf */; };
+		B42115D12AAB821000D8D89E /* TWKLausanne-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AA2AAB820F00D8D89E /* TWKLausanne-400.otf */; };
+		B42115D22AAB821000D8D89E /* TWKLausanne-950.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AB2AAB820F00D8D89E /* TWKLausanne-950.otf */; };
+		B42115D32AAB821000D8D89E /* TWKLausanne-550Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AC2AAB821000D8D89E /* TWKLausanne-550Italic.otf */; };
 		B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */; };
 		B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */; };
 		B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBC2A5DBE9F00F83153 /* Main.storyboard */; };
@@ -64,46 +63,45 @@
 
 /* Begin PBXFileReference section */
 		B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestApp.entitlements; sourceTree = "<group>"; };
-		B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550.otf"; sourceTree = "<group>"; };
-		B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800.otf"; sourceTree = "<group>"; };
-		B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700Italic.otf"; sourceTree = "<group>"; };
-		B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250Italic.otf"; sourceTree = "<group>"; };
-		B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000Italic.otf"; sourceTree = "<group>"; };
-		B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750.otf"; sourceTree = "<group>"; };
-		B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350.otf"; sourceTree = "<group>"; };
-		B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000.otf"; sourceTree = "<group>"; };
-		B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750Italic.otf"; sourceTree = "<group>"; };
-		B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200Italic.otf"; sourceTree = "<group>"; };
-		B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150.otf"; sourceTree = "<group>"; };
-		B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450Italic.otf"; sourceTree = "<group>"; };
-		B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-100Italic.otf"; sourceTree = "<group>"; };
-		B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650.otf"; sourceTree = "<group>"; };
-		B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800Italic.otf"; sourceTree = "<group>"; };
-		B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450.otf"; sourceTree = "<group>"; };
-		B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900.otf"; sourceTree = "<group>"; };
-		B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850Italic.otf"; sourceTree = "<group>"; };
-		B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50Italic.otf"; sourceTree = "<group>"; };
-		B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250.otf"; sourceTree = "<group>"; };
-		B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400Italic.otf"; sourceTree = "<group>"; };
-		B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150Italic.otf"; sourceTree = "<group>"; };
-		B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300Italic.otf"; sourceTree = "<group>"; };
-		B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650Italic.otf"; sourceTree = "<group>"; };
-		B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300.otf"; sourceTree = "<group>"; };
-		B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-100.otf"; sourceTree = "<group>"; };
-		B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500.otf"; sourceTree = "<group>"; };
-		B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850.otf"; sourceTree = "<group>"; };
-		B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50.otf"; sourceTree = "<group>"; };
-		B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350Italic.otf"; sourceTree = "<group>"; };
-		B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600Italic.otf"; sourceTree = "<group>"; };
-		B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700.otf"; sourceTree = "<group>"; };
-		B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500Italic.otf"; sourceTree = "<group>"; };
-		B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200.otf"; sourceTree = "<group>"; };
-		B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950Italic.otf"; sourceTree = "<group>"; };
-		B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600.otf"; sourceTree = "<group>"; };
-		B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900Italic.otf"; sourceTree = "<group>"; };
-		B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400.otf"; sourceTree = "<group>"; };
-		B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950.otf"; sourceTree = "<group>"; };
-		B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550Italic.otf"; sourceTree = "<group>"; };
+		B42115862AAB820F00D8D89E /* TWKLausanne-550.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550.otf"; sourceTree = "<group>"; };
+		B42115872AAB820F00D8D89E /* TWKLausanne-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800.otf"; sourceTree = "<group>"; };
+		B42115882AAB820F00D8D89E /* TWKLausanne-700Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700Italic.otf"; sourceTree = "<group>"; };
+		B42115892AAB820F00D8D89E /* TWKLausanne-250Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250Italic.otf"; sourceTree = "<group>"; };
+		B421158A2AAB820F00D8D89E /* TWKLausanne-1000Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000Italic.otf"; sourceTree = "<group>"; };
+		B421158B2AAB820F00D8D89E /* TWKLausanne-750.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750.otf"; sourceTree = "<group>"; };
+		B421158C2AAB820F00D8D89E /* TWKLausanne-350.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350.otf"; sourceTree = "<group>"; };
+		B421158D2AAB820F00D8D89E /* TWKLausanne-1000.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-1000.otf"; sourceTree = "<group>"; };
+		B421158E2AAB820F00D8D89E /* TWKLausanne-750Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-750Italic.otf"; sourceTree = "<group>"; };
+		B421158F2AAB820F00D8D89E /* TWKLausanne-200Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200Italic.otf"; sourceTree = "<group>"; };
+		B42115902AAB820F00D8D89E /* TWKLausanne-150.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150.otf"; sourceTree = "<group>"; };
+		B42115912AAB820F00D8D89E /* TWKLausanne-450Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450Italic.otf"; sourceTree = "<group>"; };
+		B42115922AAB820F00D8D89E /* TWKLausanne-100Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-100Italic.otf"; sourceTree = "<group>"; };
+		B42115932AAB820F00D8D89E /* TWKLausanne-650.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650.otf"; sourceTree = "<group>"; };
+		B42115942AAB820F00D8D89E /* TWKLausanne-800Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800Italic.otf"; sourceTree = "<group>"; };
+		B42115952AAB820F00D8D89E /* TWKLausanne-450.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-450.otf"; sourceTree = "<group>"; };
+		B42115962AAB820F00D8D89E /* TWKLausanne-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900.otf"; sourceTree = "<group>"; };
+		B42115972AAB820F00D8D89E /* TWKLausanne-850Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850Italic.otf"; sourceTree = "<group>"; };
+		B42115982AAB820F00D8D89E /* TWKLausanne-50Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50Italic.otf"; sourceTree = "<group>"; };
+		B42115992AAB820F00D8D89E /* TWKLausanne-250.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-250.otf"; sourceTree = "<group>"; };
+		B421159A2AAB820F00D8D89E /* TWKLausanne-400Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400Italic.otf"; sourceTree = "<group>"; };
+		B421159B2AAB820F00D8D89E /* TWKLausanne-150Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-150Italic.otf"; sourceTree = "<group>"; };
+		B421159C2AAB820F00D8D89E /* TWKLausanne-300Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300Italic.otf"; sourceTree = "<group>"; };
+		B421159D2AAB820F00D8D89E /* TWKLausanne-650Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-650Italic.otf"; sourceTree = "<group>"; };
+		B421159E2AAB820F00D8D89E /* TWKLausanne-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-300.otf"; sourceTree = "<group>"; };
+		B421159F2AAB820F00D8D89E /* TWKLausanne-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500.otf"; sourceTree = "<group>"; };
+		B42115A02AAB820F00D8D89E /* TWKLausanne-850.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-850.otf"; sourceTree = "<group>"; };
+		B42115A12AAB820F00D8D89E /* TWKLausanne-50.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-50.otf"; sourceTree = "<group>"; };
+		B42115A22AAB820F00D8D89E /* TWKLausanne-350Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-350Italic.otf"; sourceTree = "<group>"; };
+		B42115A32AAB820F00D8D89E /* TWKLausanne-600Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600Italic.otf"; sourceTree = "<group>"; };
+		B42115A42AAB820F00D8D89E /* TWKLausanne-700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700.otf"; sourceTree = "<group>"; };
+		B42115A52AAB820F00D8D89E /* TWKLausanne-500Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-500Italic.otf"; sourceTree = "<group>"; };
+		B42115A62AAB820F00D8D89E /* TWKLausanne-200.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-200.otf"; sourceTree = "<group>"; };
+		B42115A72AAB820F00D8D89E /* TWKLausanne-950Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950Italic.otf"; sourceTree = "<group>"; };
+		B42115A82AAB820F00D8D89E /* TWKLausanne-600.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-600.otf"; sourceTree = "<group>"; };
+		B42115A92AAB820F00D8D89E /* TWKLausanne-900Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-900Italic.otf"; sourceTree = "<group>"; };
+		B42115AA2AAB820F00D8D89E /* TWKLausanne-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400.otf"; sourceTree = "<group>"; };
+		B42115AB2AAB820F00D8D89E /* TWKLausanne-950.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950.otf"; sourceTree = "<group>"; };
+		B42115AC2AAB821000D8D89E /* TWKLausanne-550Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550Italic.otf"; sourceTree = "<group>"; };
 		B4A02DB32A5DBE9F00F83153 /* IgorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,57 +138,56 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B44A6DD72A7162C20032C33D /* Lausanne */ = {
+		B42115852AAB820F00D8D89E /* Lausanne */ = {
 			isa = PBXGroup;
 			children = (
-				B44A6DD82A7162C20032C33D /* TWKLausanne-550.otf */,
-				B44A6DD92A7162C20032C33D /* TWKLausanne-800.otf */,
-				B44A6DDA2A7162C20032C33D /* TWKLausanne-700Italic.otf */,
-				B44A6DDB2A7162C20032C33D /* TWKLausanne-250Italic.otf */,
-				B44A6DDC2A7162C20032C33D /* TWKLausanne-1000Italic.otf */,
-				B44A6DDD2A7162C20032C33D /* TWKLausanne-750.otf */,
-				B44A6DDE2A7162C20032C33D /* TWKLausanne-350.otf */,
-				B44A6DDF2A7162C20032C33D /* TWKLausanne-1000.otf */,
-				B44A6DE02A7162C20032C33D /* TWKLausanne-750Italic.otf */,
-				B44A6DE12A7162C20032C33D /* TWKLausanne-200Italic.otf */,
-				B44A6DE22A7162C20032C33D /* TWKLausanne-150.otf */,
-				B44A6DE32A7162C20032C33D /* TWKLausanne-450Italic.otf */,
-				B44A6DE42A7162C20032C33D /* TWKLausanne-100Italic.otf */,
-				B44A6DE52A7162C20032C33D /* TWKLausanne-650.otf */,
-				B44A6DE62A7162C20032C33D /* TWKLausanne-800Italic.otf */,
-				B44A6DE72A7162C20032C33D /* TWKLausanne-450.otf */,
-				B44A6DE82A7162C20032C33D /* TWKLausanne-900.otf */,
-				B44A6DE92A7162C20032C33D /* TWKLausanne-850Italic.otf */,
-				B44A6DEA2A7162C20032C33D /* TWKLausanne-50Italic.otf */,
-				B44A6DEB2A7162C20032C33D /* TWKLausanne-250.otf */,
-				B44A6DEC2A7162C20032C33D /* TWKLausanne-400Italic.otf */,
-				B44A6DED2A7162C20032C33D /* TWKLausanne-150Italic.otf */,
-				B44A6DEE2A7162C20032C33D /* TWKLausanne-300Italic.otf */,
-				B44A6DEF2A7162C20032C33D /* TWKLausanne-650Italic.otf */,
-				B44A6DF02A7162C20032C33D /* TWKLausanne-300.otf */,
-				B44A6DF12A7162C20032C33D /* TWKLausanne-100.otf */,
-				B44A6DF22A7162C20032C33D /* TWKLausanne-500.otf */,
-				B44A6DF32A7162C20032C33D /* TWKLausanne-850.otf */,
-				B44A6DF42A7162C20032C33D /* TWKLausanne-50.otf */,
-				B44A6DF52A7162C20032C33D /* TWKLausanne-350Italic.otf */,
-				B44A6DF62A7162C20032C33D /* TWKLausanne-600Italic.otf */,
-				B44A6DF72A7162C20032C33D /* TWKLausanne-700.otf */,
-				B44A6DF82A7162C20032C33D /* TWKLausanne-500Italic.otf */,
-				B44A6DF92A7162C20032C33D /* TWKLausanne-200.otf */,
-				B44A6DFA2A7162C20032C33D /* TWKLausanne-950Italic.otf */,
-				B44A6DFB2A7162C20032C33D /* TWKLausanne-600.otf */,
-				B44A6DFC2A7162C20032C33D /* TWKLausanne-900Italic.otf */,
-				B44A6DFD2A7162C20032C33D /* TWKLausanne-400.otf */,
-				B44A6DFE2A7162C20032C33D /* TWKLausanne-950.otf */,
-				B44A6DFF2A7162C20032C33D /* TWKLausanne-550Italic.otf */,
+				B42115862AAB820F00D8D89E /* TWKLausanne-550.otf */,
+				B42115872AAB820F00D8D89E /* TWKLausanne-800.otf */,
+				B42115882AAB820F00D8D89E /* TWKLausanne-700Italic.otf */,
+				B42115892AAB820F00D8D89E /* TWKLausanne-250Italic.otf */,
+				B421158A2AAB820F00D8D89E /* TWKLausanne-1000Italic.otf */,
+				B421158B2AAB820F00D8D89E /* TWKLausanne-750.otf */,
+				B421158C2AAB820F00D8D89E /* TWKLausanne-350.otf */,
+				B421158D2AAB820F00D8D89E /* TWKLausanne-1000.otf */,
+				B421158E2AAB820F00D8D89E /* TWKLausanne-750Italic.otf */,
+				B421158F2AAB820F00D8D89E /* TWKLausanne-200Italic.otf */,
+				B42115902AAB820F00D8D89E /* TWKLausanne-150.otf */,
+				B42115912AAB820F00D8D89E /* TWKLausanne-450Italic.otf */,
+				B42115922AAB820F00D8D89E /* TWKLausanne-100Italic.otf */,
+				B42115932AAB820F00D8D89E /* TWKLausanne-650.otf */,
+				B42115942AAB820F00D8D89E /* TWKLausanne-800Italic.otf */,
+				B42115952AAB820F00D8D89E /* TWKLausanne-450.otf */,
+				B42115962AAB820F00D8D89E /* TWKLausanne-900.otf */,
+				B42115972AAB820F00D8D89E /* TWKLausanne-850Italic.otf */,
+				B42115982AAB820F00D8D89E /* TWKLausanne-50Italic.otf */,
+				B42115992AAB820F00D8D89E /* TWKLausanne-250.otf */,
+				B421159A2AAB820F00D8D89E /* TWKLausanne-400Italic.otf */,
+				B421159B2AAB820F00D8D89E /* TWKLausanne-150Italic.otf */,
+				B421159C2AAB820F00D8D89E /* TWKLausanne-300Italic.otf */,
+				B421159D2AAB820F00D8D89E /* TWKLausanne-650Italic.otf */,
+				B421159E2AAB820F00D8D89E /* TWKLausanne-300.otf */,
+				B421159F2AAB820F00D8D89E /* TWKLausanne-500.otf */,
+				B42115A02AAB820F00D8D89E /* TWKLausanne-850.otf */,
+				B42115A12AAB820F00D8D89E /* TWKLausanne-50.otf */,
+				B42115A22AAB820F00D8D89E /* TWKLausanne-350Italic.otf */,
+				B42115A32AAB820F00D8D89E /* TWKLausanne-600Italic.otf */,
+				B42115A42AAB820F00D8D89E /* TWKLausanne-700.otf */,
+				B42115A52AAB820F00D8D89E /* TWKLausanne-500Italic.otf */,
+				B42115A62AAB820F00D8D89E /* TWKLausanne-200.otf */,
+				B42115A72AAB820F00D8D89E /* TWKLausanne-950Italic.otf */,
+				B42115A82AAB820F00D8D89E /* TWKLausanne-600.otf */,
+				B42115A92AAB820F00D8D89E /* TWKLausanne-900Italic.otf */,
+				B42115AA2AAB820F00D8D89E /* TWKLausanne-400.otf */,
+				B42115AB2AAB820F00D8D89E /* TWKLausanne-950.otf */,
+				B42115AC2AAB821000D8D89E /* TWKLausanne-550Italic.otf */,
 			);
-			name = Lausanne;
-			path = ../../../Downloads/Lausanne;
+			path = Lausanne;
 			sourceTree = "<group>";
 		};
 		B4A02DAA2A5DBE9F00F83153 = {
 			isa = PBXGroup;
 			children = (
+				B42115852AAB820F00D8D89E /* Lausanne */,
 				B4A02DB52A5DBE9F00F83153 /* IgorTestApp */,
 				B4A02DB42A5DBE9F00F83153 /* Products */,
 				3A8A813009312C1AB5E45533 /* Pods */,
@@ -210,7 +207,6 @@
 			children = (
 				B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */,
 				B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */,
-				B44A6DD72A7162C20032C33D /* Lausanne */,
 				B4EAB8032A6548ED001144DA /* exceptions */,
 				B4A02DD22A5DBFD100F83153 /* persistance */,
 				B4A02DD12A5DBFCB00F83153 /* service */,
@@ -335,49 +331,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B44A6E082A7162C30032C33D /* TWKLausanne-750Italic.otf in Resources */,
-				B44A6E1B2A7162C30032C33D /* TWKLausanne-850.otf in Resources */,
-				B44A6E222A7162C30032C33D /* TWKLausanne-950Italic.otf in Resources */,
-				B44A6E0C2A7162C30032C33D /* TWKLausanne-100Italic.otf in Resources */,
-				B44A6E0D2A7162C30032C33D /* TWKLausanne-650.otf in Resources */,
-				B44A6E1E2A7162C30032C33D /* TWKLausanne-600Italic.otf in Resources */,
-				B44A6E062A7162C30032C33D /* TWKLausanne-350.otf in Resources */,
-				B44A6E142A7162C30032C33D /* TWKLausanne-400Italic.otf in Resources */,
-				B44A6E0E2A7162C30032C33D /* TWKLausanne-800Italic.otf in Resources */,
+				B42115B82AAB821000D8D89E /* TWKLausanne-450Italic.otf in Resources */,
+				B42115B92AAB821000D8D89E /* TWKLausanne-100Italic.otf in Resources */,
+				B42115D32AAB821000D8D89E /* TWKLausanne-550Italic.otf in Resources */,
+				B42115C52AAB821000D8D89E /* TWKLausanne-300.otf in Resources */,
+				B42115C32AAB821000D8D89E /* TWKLausanne-300Italic.otf in Resources */,
+				B42115CC2AAB821000D8D89E /* TWKLausanne-500Italic.otf in Resources */,
+				B42115C62AAB821000D8D89E /* TWKLausanne-500.otf in Resources */,
+				B42115D12AAB821000D8D89E /* TWKLausanne-400.otf in Resources */,
+				B42115C22AAB821000D8D89E /* TWKLausanne-150Italic.otf in Resources */,
+				B42115AF2AAB821000D8D89E /* TWKLausanne-700Italic.otf in Resources */,
+				B42115BE2AAB821000D8D89E /* TWKLausanne-850Italic.otf in Resources */,
+				B42115B02AAB821000D8D89E /* TWKLausanne-250Italic.otf in Resources */,
+				B42115BB2AAB821000D8D89E /* TWKLausanne-800Italic.otf in Resources */,
 				B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */,
-				B44A6E1C2A7162C30032C33D /* TWKLausanne-50.otf in Resources */,
-				B44A6E172A7162C30032C33D /* TWKLausanne-650Italic.otf in Resources */,
 				B4A02DC02A5DBEA100F83153 /* Assets.xcassets in Resources */,
-				B44A6E1F2A7162C30032C33D /* TWKLausanne-700.otf in Resources */,
-				B44A6E192A7162C30032C33D /* TWKLausanne-100.otf in Resources */,
-				B44A6E1D2A7162C30032C33D /* TWKLausanne-350Italic.otf in Resources */,
-				B44A6E0A2A7162C30032C33D /* TWKLausanne-150.otf in Resources */,
-				B44A6E0B2A7162C30032C33D /* TWKLausanne-450Italic.otf in Resources */,
-				B44A6E212A7162C30032C33D /* TWKLausanne-200.otf in Resources */,
-				B44A6E042A7162C30032C33D /* TWKLausanne-1000Italic.otf in Resources */,
-				B44A6E002A7162C30032C33D /* TWKLausanne-550.otf in Resources */,
-				B44A6E092A7162C30032C33D /* TWKLausanne-200Italic.otf in Resources */,
-				B44A6E162A7162C30032C33D /* TWKLausanne-300Italic.otf in Resources */,
-				B44A6E202A7162C30032C33D /* TWKLausanne-500Italic.otf in Resources */,
-				B44A6E182A7162C30032C33D /* TWKLausanne-300.otf in Resources */,
-				B44A6E242A7162C30032C33D /* TWKLausanne-900Italic.otf in Resources */,
-				B44A6E022A7162C30032C33D /* TWKLausanne-700Italic.otf in Resources */,
-				B44A6E152A7162C30032C33D /* TWKLausanne-150Italic.otf in Resources */,
-				B44A6E112A7162C30032C33D /* TWKLausanne-850Italic.otf in Resources */,
-				B44A6E232A7162C30032C33D /* TWKLausanne-600.otf in Resources */,
-				B44A6E032A7162C30032C33D /* TWKLausanne-250Italic.otf in Resources */,
-				B44A6E252A7162C30032C33D /* TWKLausanne-400.otf in Resources */,
-				B44A6E1A2A7162C30032C33D /* TWKLausanne-500.otf in Resources */,
+				B42115CE2AAB821000D8D89E /* TWKLausanne-950Italic.otf in Resources */,
+				B42115C92AAB821000D8D89E /* TWKLausanne-350Italic.otf in Resources */,
+				B42115C12AAB821000D8D89E /* TWKLausanne-400Italic.otf in Resources */,
+				B42115CF2AAB821000D8D89E /* TWKLausanne-600.otf in Resources */,
+				B42115B52AAB821000D8D89E /* TWKLausanne-750Italic.otf in Resources */,
+				B42115BC2AAB821000D8D89E /* TWKLausanne-450.otf in Resources */,
+				B42115AE2AAB821000D8D89E /* TWKLausanne-800.otf in Resources */,
+				B42115CB2AAB821000D8D89E /* TWKLausanne-700.otf in Resources */,
+				B42115B22AAB821000D8D89E /* TWKLausanne-750.otf in Resources */,
+				B42115BA2AAB821000D8D89E /* TWKLausanne-650.otf in Resources */,
+				B42115B12AAB821000D8D89E /* TWKLausanne-1000Italic.otf in Resources */,
+				B42115C72AAB821000D8D89E /* TWKLausanne-850.otf in Resources */,
+				B42115C02AAB821000D8D89E /* TWKLausanne-250.otf in Resources */,
 				B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */,
-				B44A6E0F2A7162C30032C33D /* TWKLausanne-450.otf in Resources */,
-				B44A6E052A7162C30032C33D /* TWKLausanne-750.otf in Resources */,
-				B44A6E262A7162C30032C33D /* TWKLausanne-950.otf in Resources */,
-				B44A6E272A7162C30032C33D /* TWKLausanne-550Italic.otf in Resources */,
-				B44A6E102A7162C30032C33D /* TWKLausanne-900.otf in Resources */,
-				B44A6E072A7162C30032C33D /* TWKLausanne-1000.otf in Resources */,
-				B44A6E122A7162C30032C33D /* TWKLausanne-50Italic.otf in Resources */,
-				B44A6E132A7162C30032C33D /* TWKLausanne-250.otf in Resources */,
-				B44A6E012A7162C30032C33D /* TWKLausanne-800.otf in Resources */,
+				B42115AD2AAB821000D8D89E /* TWKLausanne-550.otf in Resources */,
+				B42115B42AAB821000D8D89E /* TWKLausanne-1000.otf in Resources */,
+				B42115C42AAB821000D8D89E /* TWKLausanne-650Italic.otf in Resources */,
+				B42115B72AAB821000D8D89E /* TWKLausanne-150.otf in Resources */,
+				B42115D22AAB821000D8D89E /* TWKLausanne-950.otf in Resources */,
+				B42115CA2AAB821000D8D89E /* TWKLausanne-600Italic.otf in Resources */,
+				B42115B32AAB821000D8D89E /* TWKLausanne-350.otf in Resources */,
+				B42115CD2AAB821000D8D89E /* TWKLausanne-200.otf in Resources */,
+				B42115C82AAB821000D8D89E /* TWKLausanne-50.otf in Resources */,
+				B42115D02AAB821000D8D89E /* TWKLausanne-900Italic.otf in Resources */,
+				B42115B62AAB821000D8D89E /* TWKLausanne-200Italic.otf in Resources */,
+				B42115BF2AAB821000D8D89E /* TWKLausanne-50Italic.otf in Resources */,
+				B42115BD2AAB821000D8D89E /* TWKLausanne-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
