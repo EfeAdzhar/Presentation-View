@@ -131,13 +131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A8A813009312C1AB5E45533 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B42115852AAB820F00D8D89E /* Lausanne */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +183,6 @@
 				B42115852AAB820F00D8D89E /* Lausanne */,
 				B4A02DB52A5DBE9F00F83153 /* IgorTestApp */,
 				B4A02DB42A5DBE9F00F83153 /* Products */,
-				3A8A813009312C1AB5E45533 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
