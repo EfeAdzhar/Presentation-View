@@ -16,8 +16,6 @@ class AppMenuViewController : UIViewController {
     }
     
     @IBAction func backButtonPressed(_ sender: UIButton) {
-        if(sender.isTouchInside) {
             self.dismiss(animated: true)
-        }
     }
 }

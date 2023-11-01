@@ -27,10 +27,10 @@ class PresentationViewController : UIViewController, UIScrollViewDelegate {
         service?.getNext()?
             .map({ (title: String, main: [String : [Optional<String>]]) in
                 titleText.text = title
-                main.map({ (mainK: String, imageV: [Optional<String>]) in
-                    mainText.text = mainK
-                    if(imageV[0] != nil) {
-                        addImageToScrollView(imageV)
+                main.map({ (mainLabelText: String, imageString: [Optional<String>]) in
+                    mainText.text = mainLabelText
+                    if(imageString[0] != nil) {
+                        addImageToScrollView(imageString)
                     } else {
                         //Sub view of a sub view
                         let tableSubView = subView.subviews.filter {$0 == tableVIew}
@@ -47,27 +47,6 @@ class PresentationViewController : UIViewController, UIScrollViewDelegate {
                     }
                 })
             })
-    }
-    
-    private func setUpElements() {
-        scrollView.isScrollEnabled = false
-        continueButton.layer.cornerRadius = 30
-        continueButton.layer.mask?.masksToBounds = true
-        service = PresentationViewService()
-        subView.layer.borderColor = UIColor.blue.cgColor
-        let layer = UICollectionViewFlowLayout()
-        layer.scrollDirection = .vertical
-        collectionView = UICollectionView(frame: subView.bounds, collectionViewLayout: layer)
-    }
-    
-    private func setUpPresentationViewControllerElementsFont() {
-        self.image.layer.masksToBounds = true
-        self.image.layer.borderColor = UIColor.black.cgColor
-        self.image.layer.cornerRadius = image.frame.height / 2
-        self.continueButton.titleLabel?.font = UIFont(name: "TWKLausanne-200", size: 22)
-        self.titleText.font = UIFont(name: "TWKLausanne-300", size: 20)
-        self.mainText.font = UIFont(name: "TWKLausanne-300", size: 35)
-        self.sighUpButton.titleLabel?.font = UIFont(name: "TWKLausanne-200", size: 19)
     }
 }
 
@@ -208,5 +187,28 @@ extension PresentationViewController : UICollectionViewDelegate, UICollectionVie
         imageView.contentMode = .scaleAspectFit
         imageView.frame = CGRect(x: 5, y: 0, width: contentFrame.frame.size.width, height: contentFrame.frame.size.height)
         return imageView
+    }
+}
+
+extension PresentationViewController {
+    private func setUpElements() {
+        scrollView.isScrollEnabled = false
+        continueButton.layer.cornerRadius = 30
+        continueButton.layer.mask?.masksToBounds = true
+        service = PresentationViewService()
+        subView.layer.borderColor = UIColor.blue.cgColor
+        let layer = UICollectionViewFlowLayout()
+        layer.scrollDirection = .vertical
+        collectionView = UICollectionView(frame: subView.bounds, collectionViewLayout: layer)
+    }
+    
+    private func setUpPresentationViewControllerElementsFont() {
+        self.image.layer.masksToBounds = true
+        self.image.layer.borderColor = UIColor.black.cgColor
+        self.image.layer.cornerRadius = image.frame.height / 2
+        self.continueButton.titleLabel?.font = UIFont(name: "TWKLausanne-200", size: 22)
+        self.titleText.font = UIFont(name: "TWKLausanne-300", size: 20)
+        self.mainText.font = UIFont(name: "TWKLausanne-300", size: 35)
+        self.sighUpButton.titleLabel?.font = UIFont(name: "TWKLausanne-200", size: 19)
     }
 }

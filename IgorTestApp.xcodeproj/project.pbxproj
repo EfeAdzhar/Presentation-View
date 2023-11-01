@@ -46,6 +46,7 @@
 		B42115D12AAB821000D8D89E /* TWKLausanne-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AA2AAB820F00D8D89E /* TWKLausanne-400.otf */; };
 		B42115D22AAB821000D8D89E /* TWKLausanne-950.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AB2AAB820F00D8D89E /* TWKLausanne-950.otf */; };
 		B42115D32AAB821000D8D89E /* TWKLausanne-550Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115AC2AAB821000D8D89E /* TWKLausanne-550Italic.otf */; };
+		B477E0542AF29CD00035AFBF /* RectangularCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B477E0532AF29CD00035AFBF /* RectangularCell.xib */; };
 		B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */; };
 		B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */; };
 		B4A02DBE2A5DBE9F00F83153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DBC2A5DBE9F00F83153 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */; };
 		B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */; };
 		B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */; };
+		B4B373122AC9AF2400579205 /* Presentation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B373112AC9AF2400579205 /* Presentation.storyboard */; };
 		B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */; };
 		B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */; };
 		B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */; };
@@ -102,6 +104,7 @@
 		B42115AA2AAB820F00D8D89E /* TWKLausanne-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-400.otf"; sourceTree = "<group>"; };
 		B42115AB2AAB820F00D8D89E /* TWKLausanne-950.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-950.otf"; sourceTree = "<group>"; };
 		B42115AC2AAB821000D8D89E /* TWKLausanne-550Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550Italic.otf"; sourceTree = "<group>"; };
+		B477E0532AF29CD00035AFBF /* RectangularCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RectangularCell.xib; sourceTree = "<group>"; };
 		B4A02DB32A5DBE9F00F83153 /* IgorTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgorTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 		B4A02DC42A5DBEA100F83153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
 		B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenuViewController.swift; sourceTree = "<group>"; };
+		B4B373112AC9AF2400579205 /* Presentation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presentation.storyboard; sourceTree = "<group>"; };
 		B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestAppRelease.entitlements; sourceTree = "<group>"; };
 		B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewService.swift; sourceTree = "<group>"; };
@@ -177,6 +181,14 @@
 			path = Lausanne;
 			sourceTree = "<group>";
 		};
+		B477E0522AF29BEB0035AFBF /* custom-cells */ = {
+			isa = PBXGroup;
+			children = (
+				B477E0532AF29CD00035AFBF /* RectangularCell.xib */,
+			);
+			path = "custom-cells";
+			sourceTree = "<group>";
+		};
 		B4A02DAA2A5DBE9F00F83153 = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +229,9 @@
 		B4A02DCB2A5DBEC100F83153 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B477E0522AF29BEB0035AFBF /* custom-cells */,
 				B4A02DBC2A5DBE9F00F83153 /* Main.storyboard */,
+				B4B373112AC9AF2400579205 /* Presentation.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -335,6 +349,7 @@
 				B42115AF2AAB821000D8D89E /* TWKLausanne-700Italic.otf in Resources */,
 				B42115BE2AAB821000D8D89E /* TWKLausanne-850Italic.otf in Resources */,
 				B42115B02AAB821000D8D89E /* TWKLausanne-250Italic.otf in Resources */,
+				B477E0542AF29CD00035AFBF /* RectangularCell.xib in Resources */,
 				B42115BB2AAB821000D8D89E /* TWKLausanne-800Italic.otf in Resources */,
 				B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */,
 				B4A02DC02A5DBEA100F83153 /* Assets.xcassets in Resources */,
@@ -360,6 +375,7 @@
 				B42115CA2AAB821000D8D89E /* TWKLausanne-600Italic.otf in Resources */,
 				B42115B32AAB821000D8D89E /* TWKLausanne-350.otf in Resources */,
 				B42115CD2AAB821000D8D89E /* TWKLausanne-200.otf in Resources */,
+				B4B373122AC9AF2400579205 /* Presentation.storyboard in Resources */,
 				B42115C82AAB821000D8D89E /* TWKLausanne-50.otf in Resources */,
 				B42115D02AAB821000D8D89E /* TWKLausanne-900Italic.otf in Resources */,
 				B42115B62AAB821000D8D89E /* TWKLausanne-200Italic.otf in Resources */,

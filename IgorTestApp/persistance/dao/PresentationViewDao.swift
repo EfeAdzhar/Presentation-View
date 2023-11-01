@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 //Singletone
+// Should not be Singletone
 class PresentationViewDao {
     
     private init() {}

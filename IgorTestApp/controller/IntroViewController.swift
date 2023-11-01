@@ -20,7 +20,9 @@ class IntroViewController : UIViewController {
     @IBAction func signInButtonPressed(_ sender: UIButton) {
         //   Here should be Sign In With Apple logic
     }
-    
+}
+
+extension IntroViewController {
     private func setUpIntroViewControllerElementsFont() {
         self.image.layer.masksToBounds = true
         self.image.layer.borderColor = UIColor.black.cgColor
