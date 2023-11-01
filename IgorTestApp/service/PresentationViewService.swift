@@ -6,13 +6,15 @@ import Foundation
 import UIKit
 
 class PresentationViewService {
-    private let model : PresentationViewRepository?
+    private var model : PresentationViewRepository?
     
     init() {
         model = PresentationViewRepository()
     }
     
-    public func getNext() -> Optional<[String: [String :  [Optional<String>]]]> {
-        return model?.getNext()
+    public func getNextValues() -> PresentationDto {
+        let dto = PresentationDto()
+        dto.fetchValues(model?.getNextValues())
+        return dto
     }
 }

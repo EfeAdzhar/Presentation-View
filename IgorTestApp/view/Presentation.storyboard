@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,22 +40,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jcc-AJ-jVb">
-                                <rect key="frame" x="20" y="358" width="388" height="338"/>
-                                <subviews>
-                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-li-TZC">
-                                        <rect key="frame" x="0.0" y="9" width="388" height="320"/>
-                                    </scrollView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="yRi-li-TZC" secondAttribute="bottom" constant="9" id="0xC-HW-xn7"/>
-                                    <constraint firstItem="yRi-li-TZC" firstAttribute="top" secondItem="Jcc-AJ-jVb" secondAttribute="top" constant="9" id="2A2-w5-EwV"/>
-                                    <constraint firstItem="yRi-li-TZC" firstAttribute="leading" secondItem="Jcc-AJ-jVb" secondAttribute="leading" id="UA0-gO-HsX"/>
-                                    <constraint firstAttribute="bottom" secondItem="yRi-li-TZC" secondAttribute="bottom" constant="9" id="fOa-ys-2Np"/>
-                                    <constraint firstAttribute="trailing" secondItem="yRi-li-TZC" secondAttribute="trailing" id="zpW-if-ZVB"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IpO-wl-cGh">
                                 <rect key="frame" x="20" y="806" width="388" height="68"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -67,7 +52,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueButtonPressed:" destination="oMc-pW-wrT" eventType="touchUpInside" id="UhE-GU-DkZ"/>
+                                    <action selector="continuePressed:" destination="oMc-pW-wrT" eventType="touchUpInside" id="YQE-Zh-wrM"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_2" translatesAutoresizingMaskIntoConstraints="NO" id="H4K-wV-kbS">
@@ -78,6 +63,17 @@
                                     <constraint firstAttribute="height" constant="68" id="fuj-FL-saY"/>
                                 </constraints>
                             </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="em3-OS-2Hz">
+                                <rect key="frame" x="20" y="399" width="388" height="301"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ux1-Dc-GYd">
+                                    <size key="itemSize" width="308" height="301"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kmH-Lu-Aao"/>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,23 +85,22 @@
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" constant="20" id="QIe-ua-G9B"/>
                             <constraint firstItem="58i-lW-JYa" firstAttribute="top" secondItem="H4K-wV-kbS" secondAttribute="bottom" constant="98.666666666666629" id="Qsj-gQ-bVm"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="bottom" secondItem="IpO-wl-cGh" secondAttribute="bottom" constant="18" id="Yxn-zB-4of"/>
+                            <constraint firstItem="IpO-wl-cGh" firstAttribute="top" secondItem="em3-OS-2Hz" secondAttribute="bottom" constant="106" id="aiN-sG-6GC"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" id="cTi-Ef-2HC"/>
+                            <constraint firstItem="em3-OS-2Hz" firstAttribute="top" secondItem="Ypc-az-4bU" secondAttribute="bottom" constant="49" id="efC-dA-iei"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="dhe-B0-yni" secondAttribute="top" constant="241" id="jdW-Ls-Mct"/>
-                            <constraint firstItem="Ypc-az-4bU" firstAttribute="trailing" secondItem="Jcc-AJ-jVb" secondAttribute="trailing" id="nxt-8o-lAT"/>
+                            <constraint firstItem="em3-OS-2Hz" firstAttribute="leading" secondItem="kmH-Lu-Aao" secondAttribute="leading" constant="20" id="nIc-lO-Jy4"/>
+                            <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="em3-OS-2Hz" secondAttribute="trailing" constant="20" id="pXh-Nk-I4C"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="58i-lW-JYa" secondAttribute="bottom" constant="8" symbolic="YES" id="utb-Gu-4sf"/>
-                            <constraint firstItem="Jcc-AJ-jVb" firstAttribute="top" secondItem="Ypc-az-4bU" secondAttribute="bottom" constant="8" symbolic="YES" id="vHM-Q6-TKX"/>
-                            <constraint firstAttribute="bottom" secondItem="Jcc-AJ-jVb" secondAttribute="bottom" constant="230" id="vvy-ZA-r9H"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="leading" secondItem="H4K-wV-kbS" secondAttribute="leading" id="zIg-5B-bPe"/>
-                            <constraint firstItem="Ypc-az-4bU" firstAttribute="leading" secondItem="Jcc-AJ-jVb" secondAttribute="leading" id="zKk-cc-Q2t"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="continueButton" destination="IpO-wl-cGh" id="ybd-tr-Qd4"/>
+                        <outlet property="collectionView" destination="em3-OS-2Hz" id="cGO-0b-zFB"/>
+                        <outlet property="continueButton" destination="IpO-wl-cGh" id="Xu2-xA-Dt8"/>
                         <outlet property="image" destination="H4K-wV-kbS" id="Whg-hg-JnO"/>
                         <outlet property="mainText" destination="Ypc-az-4bU" id="oIE-Oy-sk3"/>
-                        <outlet property="scrollView" destination="yRi-li-TZC" id="Qz7-QG-cSa"/>
                         <outlet property="sighUpButton" destination="esv-ZE-euD" id="DYM-dz-rXK"/>
-                        <outlet property="subView" destination="Jcc-AJ-jVb" id="las-ld-eN6"/>
                         <outlet property="titleText" destination="58i-lW-JYa" id="O2s-2Z-F4v"/>
                     </connections>
                 </viewController>
@@ -116,5 +111,8 @@
     </scenes>
     <resources>
         <image name="me_2" width="1280" height="959"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
