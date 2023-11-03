@@ -12,12 +12,11 @@ class PresentationViewRepository {
     private let tableView = UITableView()
     private let dao = PresentationViewDao()
     
-    //returns [ [titleLabelText : mainLabelText] : [imageNameString] ]
-    public func getNextValues() -> Optional<[ [String : String] : [String] ]>  {
-        if(!dao.getTitleAndMainText().isEmpty
-           && !dao.getViewImageArray().isEmpty) {
+    //returns [ [titleLabelText : mainLabelText] : [[imageNameString] : messageType] ]
+    public func getNextValues() -> Optional<[ [String : String] : [[String] : MessageType] ]>  {
+        if(!dao.getMessage().isEmpty) {
             return [dao.removeAndGetTitleAndMainText() :
-                        dao.removeAndGetViewImage()]
+                        dao.removeAndGetViewImageAndMessageType()]
         }
         return Optional.none
     }

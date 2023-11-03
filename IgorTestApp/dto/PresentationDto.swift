@@ -11,16 +11,23 @@ class PresentationDto {
     var titleText : String?
     var mainText : String?
     var imageString : [String]?
+    var messageType : MessageType?
     
-    public func fetchValues( _ model : Optional<[ [String : String] : [String] ]>) {
+    public func fetchValues( _ model : Optional<[ [String : String] : [[String] : MessageType]]>) {
         guard let dictionary = model?.first else {return}
         fetchKey(dictionary.key)
-        self.imageString = dictionary.value
+        fetchValue(dictionary.value)
     }
     
     private func fetchKey(_ key : [String : String]) {
         let labelTextKeyValue = key.first
         self.titleText = labelTextKeyValue?.key
         self.mainText = labelTextKeyValue?.value
+    }
+    
+    private func fetchValue(_ value : [[String] : MessageType]) {
+        let imageAndMessageValue = value.first
+        self.imageString = imageAndMessageValue?.key
+        self.messageType = imageAndMessageValue!.value
     }
 }

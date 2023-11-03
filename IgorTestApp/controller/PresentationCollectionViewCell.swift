@@ -13,16 +13,19 @@ enum CellTypes {
 }
 
 class PresentationCollectionViewCells {
-    func addCell(_type : CellTypes, _ amount : Int) -> [UICollectionViewCell] {
+   private var rectangularCell : [RectangularCell] = []
+   private var verticalCell : [VerticalCell] = []
+    
+   public func generateCell(_type : CellTypes, _ amount : Int) -> [UICollectionViewCell] {
         switch _type {
         case .RECTANGULAR:
-            return addCell(RectangularCell(), amount)
+            return addCell(RectangularCell(), rectangularCell, amount)
         case .VERTICAL:
-            return addCell(VerticalCell(), amount)
+            return addCell(VerticalCell(), verticalCell, amount)
         }
     }
     
-    private func addCell(_ cell : UICollectionViewCell, _ amount : Int) -> [UICollectionViewCell] {
+    private func addCell(_ cell : UICollectionViewCell, _ cellArray : [UICollectionViewCell], _ amount : Int) -> [UICollectionViewCell] {
         var cellArray : [UICollectionViewCell] = []
         for _ in 0...amount {
             cellArray.append(cell)
