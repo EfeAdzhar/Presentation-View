@@ -7,46 +7,23 @@
 
 import UIKit
 
-enum CellTypes {
-    case RECTANGULAR
-    case VERTICAL
-}
-
-class PresentationCollectionViewCells {
-   private var rectangularCell : [RectangularCell] = []
-   private var verticalCell : [VerticalCell] = []
-    
-   public func generateCell(_type : CellTypes, _ amount : Int) -> [UICollectionViewCell] {
-        switch _type {
-        case .RECTANGULAR:
-            return addCell(RectangularCell(), rectangularCell, amount)
-        case .VERTICAL:
-            return addCell(VerticalCell(), verticalCell, amount)
-        }
-    }
-    
-    private func addCell(_ cell : UICollectionViewCell, _ cellArray : [UICollectionViewCell], _ amount : Int) -> [UICollectionViewCell] {
-        var cellArray : [UICollectionViewCell] = []
-        for _ in 0...amount {
-            cellArray.append(cell)
-        }
-        return cellArray
-    }
-}
-
 class RectangularCell : UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
+    public static let IDENTIFIER = "rectangularCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         contentView.layer.cornerRadius = 15
         contentView.layer.masksToBounds = true
+        imageView.contentMode = .scaleAspectFit
+        imageView.layer.cornerRadius = 15
     }
 }
 
 class VerticalCell : UICollectionViewCell {
+    public static let IDENTIFIER = "verticalCell"
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         contentView.layer.cornerRadius = 15
         contentView.layer.masksToBounds = true
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B418F8032AF54E8300302B76 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418F8022AF54E8300302B76 /* CellType.swift */; };
+		B418F8062AF54FE700302B76 /* PresentationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418F8052AF54FE700302B76 /* PresentationExtension.swift */; };
+		B418F8092AF5535200302B76 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418F8082AF5535200302B76 /* MessageType.swift */; };
 		B42115AD2AAB821000D8D89E /* TWKLausanne-550.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115862AAB820F00D8D89E /* TWKLausanne-550.otf */; };
 		B42115AE2AAB821000D8D89E /* TWKLausanne-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115872AAB820F00D8D89E /* TWKLausanne-800.otf */; };
 		B42115AF2AAB821000D8D89E /* TWKLausanne-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B42115882AAB820F00D8D89E /* TWKLausanne-700Italic.otf */; };
@@ -58,16 +61,19 @@
 		B4A02DC32A5DBEA100F83153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */; };
 		B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */; };
 		B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */; };
+		B4AB6BB82AF9664900B32D52 /* PresentationCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AB6BB72AF9664900B32D52 /* PresentationCollectionView.swift */; };
 		B4B373122AC9AF2400579205 /* Presentation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B373112AC9AF2400579205 /* Presentation.storyboard */; };
 		B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */; };
 		B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */; };
 		B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */; };
-		B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */; };
 		B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestApp.entitlements; sourceTree = "<group>"; };
+		B418F8022AF54E8300302B76 /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		B418F8052AF54FE700302B76 /* PresentationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationExtension.swift; sourceTree = "<group>"; };
+		B418F8082AF5535200302B76 /* MessageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageType.swift; sourceTree = "<group>"; };
 		B42115862AAB820F00D8D89E /* TWKLausanne-550.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-550.otf"; sourceTree = "<group>"; };
 		B42115872AAB820F00D8D89E /* TWKLausanne-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-800.otf"; sourceTree = "<group>"; };
 		B42115882AAB820F00D8D89E /* TWKLausanne-700Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TWKLausanne-700Italic.otf"; sourceTree = "<group>"; };
@@ -120,12 +126,12 @@
 		B4A02DC42A5DBEA100F83153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
 		B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenuViewController.swift; sourceTree = "<group>"; };
+		B4AB6BB72AF9664900B32D52 /* PresentationCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCollectionView.swift; sourceTree = "<group>"; };
 		B4B373112AC9AF2400579205 /* Presentation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presentation.storyboard; sourceTree = "<group>"; };
 		B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IgorTestAppRelease.entitlements; sourceTree = "<group>"; };
 		B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B4EAB7FF2A64996A001144DA /* PresentationViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewService.swift; sourceTree = "<group>"; };
 		B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewRepository.swift; sourceTree = "<group>"; };
-		B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewExceptions.swift; sourceTree = "<group>"; };
 		B4EAB80B2A695A75001144DA /* PresentationViewDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +147,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B418F8012AF54E6800302B76 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				B418F8022AF54E8300302B76 /* CellType.swift */,
+				B418F8082AF5535200302B76 /* MessageType.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		B418F8042AF54FC700302B76 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				B418F8052AF54FE700302B76 /* PresentationExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		B418F8072AF550ED00302B76 /* support-files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */,
+				B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */,
+				B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */,
+				B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */,
+				B4A02DC42A5DBEA100F83153 /* Info.plist */,
+			);
+			path = "support-files";
+			sourceTree = "<group>";
+		};
 		B42115852AAB820F00D8D89E /* Lausanne */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,17 +261,13 @@
 			children = (
 				B4B9C6E62A9CFE52004D4616 /* IgorTestAppRelease.entitlements */,
 				B409B3F82A74675D00FB3C1F /* IgorTestApp.entitlements */,
+				B418F8072AF550ED00302B76 /* support-files */,
+				B418F8012AF54E6800302B76 /* enum */,
 				B477E05D2AF2AE5B0035AFBF /* dto */,
-				B4EAB8032A6548ED001144DA /* exceptions */,
 				B4A02DD22A5DBFD100F83153 /* persistance */,
 				B4A02DD12A5DBFCB00F83153 /* service */,
 				B4A02DCC2A5DBEC600F83153 /* controller */,
 				B4A02DCB2A5DBEC100F83153 /* view */,
-				B4A02DB62A5DBE9F00F83153 /* AppDelegate.swift */,
-				B4A02DB82A5DBE9F00F83153 /* SceneDelegate.swift */,
-				B4A02DBF2A5DBEA100F83153 /* Assets.xcassets */,
-				B4A02DC12A5DBEA100F83153 /* LaunchScreen.storyboard */,
-				B4A02DC42A5DBEA100F83153 /* Info.plist */,
 			);
 			path = IgorTestApp;
 			sourceTree = "<group>";
@@ -254,10 +285,12 @@
 		B4A02DCC2A5DBEC600F83153 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				B418F8042AF54FC700302B76 /* extension */,
 				B4A02DD72A5DC4E500F83153 /* PresentationViewController.swift */,
 				B4A02DDB2A5DCB4000F83153 /* AppMenuViewController.swift */,
 				B4EAB7FC2A6097AA001144DA /* IntroViewController.swift */,
 				B477E0592AF2A0440035AFBF /* PresentationCollectionViewCell.swift */,
+				B4AB6BB72AF9664900B32D52 /* PresentationCollectionView.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -277,14 +310,6 @@
 				B4EAB8012A64999C001144DA /* PresentationViewRepository.swift */,
 			);
 			path = persistance;
-			sourceTree = "<group>";
-		};
-		B4EAB8032A6548ED001144DA /* exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				B4EAB8042A654905001144DA /* PresentationViewExceptions.swift */,
-			);
-			path = exceptions;
 			sourceTree = "<group>";
 		};
 		B4EAB8062A65C375001144DA /* dao */ = {
@@ -414,16 +439,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EAB8052A654905001144DA /* PresentationViewExceptions.swift in Sources */,
 				B4A02DDC2A5DCB4000F83153 /* AppMenuViewController.swift in Sources */,
 				B4EAB8022A64999C001144DA /* PresentationViewRepository.swift in Sources */,
 				B477E05F2AF2AE890035AFBF /* PresentationDto.swift in Sources */,
 				B4EAB7FE2A648672001144DA /* IntroViewController.swift in Sources */,
 				B4EAB8002A64996A001144DA /* PresentationViewService.swift in Sources */,
 				B4A02DB72A5DBE9F00F83153 /* AppDelegate.swift in Sources */,
+				B418F8032AF54E8300302B76 /* CellType.swift in Sources */,
+				B418F8092AF5535200302B76 /* MessageType.swift in Sources */,
 				B477E05A2AF2A0440035AFBF /* PresentationCollectionViewCell.swift in Sources */,
 				B4A02DD82A5DC4E500F83153 /* PresentationViewController.swift in Sources */,
 				B4A02DB92A5DBE9F00F83153 /* SceneDelegate.swift in Sources */,
+				B418F8062AF54FE700302B76 /* PresentationExtension.swift in Sources */,
+				B4AB6BB82AF9664900B32D52 /* PresentationCollectionView.swift in Sources */,
 				B4EAB80C2A695A75001144DA /* PresentationViewDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,7 +603,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YWRL64VCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IgorTestApp/Info.plist;
+				INFOPLIST_FILE = "IgorTestApp/support-files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -606,7 +634,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YWRL64VCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IgorTestApp/Info.plist;
+				INFOPLIST_FILE = "IgorTestApp/support-files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

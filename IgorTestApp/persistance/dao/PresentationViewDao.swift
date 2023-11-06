@@ -8,14 +8,6 @@
 import Foundation
 import OrderedCollections
 
-enum MessageType {
-    case KICKOFF
-    case ROOM_SCAN
-    case DESIGN
-    case CONFIGURE
-    case ORDER
-}
-
 class PresentationViewDao {
     
     private var titleAndMainText : OrderedDictionary = [
@@ -41,14 +33,6 @@ class PresentationViewDao {
         .CONFIGURE,
         .ORDER
     ]
-    
-    public func getTitleAndMainText() -> OrderedDictionary<String, String> {
-        return titleAndMainText
-    }
-    
-    public func getViewImageArray() -> [[String]] {
-        return viewImages
-    }
     
     public func getMessage() -> [MessageType] {
         return messageType

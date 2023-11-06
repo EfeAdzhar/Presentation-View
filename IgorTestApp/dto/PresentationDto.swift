@@ -18,7 +18,9 @@ class PresentationDto {
         fetchKey(dictionary.key)
         fetchValue(dictionary.value)
     }
-    
+}
+
+extension PresentationDto {
     private func fetchKey(_ key : [String : String]) {
         let labelTextKeyValue = key.first
         self.titleText = labelTextKeyValue?.key

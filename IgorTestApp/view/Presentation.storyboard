@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -64,9 +63,9 @@
                                 </constraints>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="em3-OS-2Hz">
-                                <rect key="frame" x="20" y="399" width="388" height="301"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ux1-Dc-GYd">
+                                <rect key="frame" x="20" y="399" width="388" height="322"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ux1-Dc-GYd">
                                     <size key="itemSize" width="308" height="301"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -85,18 +84,18 @@
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" constant="20" id="QIe-ua-G9B"/>
                             <constraint firstItem="58i-lW-JYa" firstAttribute="top" secondItem="H4K-wV-kbS" secondAttribute="bottom" constant="98.666666666666629" id="Qsj-gQ-bVm"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="bottom" secondItem="IpO-wl-cGh" secondAttribute="bottom" constant="18" id="Yxn-zB-4of"/>
-                            <constraint firstItem="IpO-wl-cGh" firstAttribute="top" secondItem="em3-OS-2Hz" secondAttribute="bottom" constant="106" id="aiN-sG-6GC"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" id="cTi-Ef-2HC"/>
                             <constraint firstItem="em3-OS-2Hz" firstAttribute="top" secondItem="Ypc-az-4bU" secondAttribute="bottom" constant="49" id="efC-dA-iei"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="dhe-B0-yni" secondAttribute="top" constant="241" id="jdW-Ls-Mct"/>
                             <constraint firstItem="em3-OS-2Hz" firstAttribute="leading" secondItem="kmH-Lu-Aao" secondAttribute="leading" constant="20" id="nIc-lO-Jy4"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="em3-OS-2Hz" secondAttribute="trailing" constant="20" id="pXh-Nk-I4C"/>
+                            <constraint firstItem="IpO-wl-cGh" firstAttribute="top" secondItem="em3-OS-2Hz" secondAttribute="bottom" constant="85" id="t5t-9C-tI3"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="58i-lW-JYa" secondAttribute="bottom" constant="8" symbolic="YES" id="utb-Gu-4sf"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="leading" secondItem="H4K-wV-kbS" secondAttribute="leading" id="zIg-5B-bPe"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="em3-OS-2Hz" id="cGO-0b-zFB"/>
+                        <outlet property="collectionView" destination="em3-OS-2Hz" id="sFl-Ar-6CY"/>
                         <outlet property="continueButton" destination="IpO-wl-cGh" id="Xu2-xA-Dt8"/>
                         <outlet property="image" destination="H4K-wV-kbS" id="Whg-hg-JnO"/>
                         <outlet property="mainText" destination="Ypc-az-4bU" id="oIE-Oy-sk3"/>
@@ -111,8 +110,5 @@
     </scenes>
     <resources>
         <image name="me_2" width="1280" height="959"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
