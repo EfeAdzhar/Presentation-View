@@ -8,7 +8,6 @@
 import UIKit
 
 final class RectangularCell : UICollectionViewCell {
-    @IBOutlet weak var imageView: UIImageView!
     public static let IDENTIFIER = "rectangularCell"
     
     override func awakeFromNib() {
@@ -18,8 +17,9 @@ final class RectangularCell : UICollectionViewCell {
     }
 }
 
-class VerticalCell : UICollectionViewCell {
+final class VerticalCell : UICollectionViewCell {
     public static let IDENTIFIER = "verticalCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.cornerRadius = 15

@@ -29,9 +29,6 @@
             </collectionViewCellContentView>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <size key="customSize" width="203" height="185"/>
-            <connections>
-                <outlet property="imageView" destination="TI2-3r-gO5" id="GNG-eq-1ZC"/>
-            </connections>
             <point key="canvasLocation" x="209" y="-110"/>
         </collectionViewCell>
     </objects>
