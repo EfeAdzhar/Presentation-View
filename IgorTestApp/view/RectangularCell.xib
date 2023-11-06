@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PresentationViewController" customModule="IgorTestApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="rectangularCell" id="f2w-jp-XwF" customClass="RectangularCell" customModule="IgorTestApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="203" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cPb-HL-GBE">
+                <rect key="frame" x="0.0" y="0.0" width="203" height="185"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="item" translatesAutoresizingMaskIntoConstraints="NO" id="TI2-3r-gO5">
+                        <rect key="frame" x="27" y="35" width="149" height="115"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="TI2-3r-gO5" secondAttribute="trailing" constant="27" id="HO7-XF-x3B"/>
+                    <constraint firstAttribute="bottom" secondItem="TI2-3r-gO5" secondAttribute="bottom" constant="35" id="X6Y-nw-bUM"/>
+                    <constraint firstItem="TI2-3r-gO5" firstAttribute="leading" secondItem="cPb-HL-GBE" secondAttribute="leading" constant="27" id="c6T-YL-51V"/>
+                    <constraint firstItem="TI2-3r-gO5" firstAttribute="top" secondItem="cPb-HL-GBE" secondAttribute="top" constant="35" id="r82-oJ-p3s"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <size key="customSize" width="203" height="185"/>
+            <connections>
+                <outlet property="imageView" destination="TI2-3r-gO5" id="GNG-eq-1ZC"/>
+            </connections>
+            <point key="canvasLocation" x="209" y="-110"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="item" width="512" height="512"/>
+    </resources>
+</document>

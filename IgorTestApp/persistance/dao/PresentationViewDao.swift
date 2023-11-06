@@ -6,63 +6,47 @@
 //
 
 import Foundation
-import UIKit
-//Singletone
-// Should not be Singletone
-class PresentationViewDao {
+import OrderedCollections
+
+final class PresentationViewDao {
     
-    private init() {}
-    static var shared: PresentationViewDao = {
-        let instance = PresentationViewDao()
-        return instance
-    }()
-    
-    private var titleText : [String] = [
-        "Kickoff",
-        "Room Scan",
-        "Design",
-        "Configure",
-        "Order"
-    ]
-    private var mainText : [String] = [
-        "Share your bathroom renovation goals",
-        "Easily gather accurate room measurments",
-        "I'll create a custom design just for you",
-        "Select your exact material and finishes",
-        "Order and track materials to your door"
+    private var titleAndMainText : OrderedDictionary = [
+        "Kickoff" :  "Share your bathroom renovation goals",
+        "Room Scan" : "Easily gather accurate room measurments",
+        "Design" : "I'll create a custom design just for you",
+        "Configure" : "Select your exact material and finishes",
+        "Order" : "Order and track materials to your door"
     ]
     
-    private var viewImages : [[String]] = [["item.png"],
-                                           ["item.png", "item.png", "item.png"],
-                                           ["item.png","item.png", "item.png", "item.png", "item.png"]]
+    private var viewImages : [[String]] = [
+        ["item.png"],
+        ["item.png", "item.png", "item.png"],
+        ["item.png","item.png", "item.png", "item.png", "item.png"],
+        ["item.png","item.png", "item.png", "item.png"],
+        ["item.png","item.png", "item.png", "item.png"]
+    ]
     
-    public func getTitleTextArray() -> [String] {
-        return titleText
+    private var messageType : [MessageType] = [
+        .KICKOFF,
+        .ROOM_SCAN,
+        .DESIGN,
+        .CONFIGURE,
+        .ORDER
+    ]
+    
+    public func getMessage() -> [MessageType] {
+        return messageType
     }
     
-    public func getMainTextArray() -> [String] {
-        return mainText
+    public func removeAndGetTitleAndMainText() -> [String : String] {
+        guard let firstPait = titleAndMainText.elements.first else {
+            return [String : String]()
+        }
+        titleAndMainText.removeFirst()
+        return [firstPait.key : firstPait.value]
     }
     
-    public func getViewImageArray() -> [[String]] {
-        return viewImages
-    }
-    
-    public func removeAndGetTitleText() -> String {
-        return titleText.remove(at: 0)
-    }
-    
-    public func removeAndGetMainText() -> String {
-        return mainText.remove(at: 0)
-    }
-    
-    public func removeAndGetViewImage() -> [String] {
-        return viewImages.remove(at: 0)
-    }
-    
-}
-extension PresentationViewDao : NSCopying {
-    func copy(with zone: NSZone? = nil) -> Any {
-        return self
+    public func removeAndGetViewImageAndMessageType() -> [[String] : MessageType] {
+        return [viewImages.remove(at: 0) : messageType.remove(at: 0)]
     }
 }

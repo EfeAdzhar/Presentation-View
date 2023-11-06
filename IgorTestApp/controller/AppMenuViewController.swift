@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class AppMenuViewController : UIViewController {
+final class AppMenuViewController : UIViewController {
     @IBOutlet private weak var backButton: UIButton!
     
     override func viewDidLoad() {
