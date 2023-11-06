@@ -5,7 +5,7 @@
 import Foundation
 import UIKit
 
-class IntroViewController : UIViewController {
+final class IntroViewController : UIViewController {
     @IBOutlet private weak var continueButton: UIButton!
     @IBOutlet private weak var introductionLabel: UILabel!
     @IBOutlet private weak var overviewSection: UILabel!

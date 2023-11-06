@@ -8,7 +8,7 @@
 import Foundation
 import OrderedCollections
 
-class PresentationViewDao {
+final class PresentationViewDao {
     
     private var titleAndMainText : OrderedDictionary = [
         "Kickoff" :  "Share your bathroom renovation goals",

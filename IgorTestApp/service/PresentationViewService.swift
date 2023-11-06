@@ -3,14 +3,11 @@
 //  Created by Efe on 16.07.2023.
 
 import Foundation
-import UIKit
 
-class PresentationViewService {
+final class PresentationViewService {
     private var model : PresentationViewRepository?
-    private var collectionView : UICollectionView?
-    
-    init(_ collectionView : UICollectionView) {
-        self.collectionView = collectionView
+
+    init() {
         model = PresentationViewRepository()
     }
     
@@ -18,16 +15,5 @@ class PresentationViewService {
         let dto = PresentationDto()
         dto.fetchValues(model?.getNextValues())
         return dto
-    }
-    
-    public func setUpCellType(_ indexPath : IndexPath, as cellType : CellType, identifier : String) -> UICollectionViewCell {
-        let cell = collectionView?
-            .dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
-        switch(cellType) {
-        case .RECTANGULAR :
-            return (cell as? RectangularCell)!
-        case .VERTICAL :
-            return (cell as? VerticalCell)!
-        }
     }
 }

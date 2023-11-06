@@ -7,16 +7,14 @@
 
 import UIKit
 
-class RectangularCell : UICollectionViewCell {
+final class RectangularCell : UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     public static let IDENTIFIER = "rectangularCell"
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        contentView.layer.cornerRadius = 15
-        contentView.layer.masksToBounds = true
-        imageView.contentMode = .scaleAspectFit
-        imageView.layer.cornerRadius = 15
+        self.layer.cornerRadius = 15
+        self.layer.masksToBounds = true
     }
 }
 
@@ -24,7 +22,7 @@ class VerticalCell : UICollectionViewCell {
     public static let IDENTIFIER = "verticalCell"
     override func awakeFromNib() {
         super.awakeFromNib()
-        contentView.layer.cornerRadius = 15
-        contentView.layer.masksToBounds = true
+        self.layer.cornerRadius = 15
+        self.layer.masksToBounds = true
     }
 }

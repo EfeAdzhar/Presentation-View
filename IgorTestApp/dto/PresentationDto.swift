@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PresentationDto {
+final class PresentationDto {
     var titleText : String?
     var mainText : String?
     var imageString : [String]?

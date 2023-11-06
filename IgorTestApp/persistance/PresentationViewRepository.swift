@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class PresentationViewRepository {
+final class PresentationViewRepository {
     private let tableView = UITableView()
     private let dao = PresentationViewDao()
     
