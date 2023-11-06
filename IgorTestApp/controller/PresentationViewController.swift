@@ -26,6 +26,6 @@ final class PresentationViewController : UIViewController {
         self.dto = service.getNextValues()
         self.collectionView?.dto = dto
         self.titleText.text = dto.titleText ?? "That's it!"
-        self.mainText.text = dto.mainText ?? "Thank you for your attantion!"
+        self.mainText.text = dto.mainText ?? "Thank you for your attention!"
     }
 }
