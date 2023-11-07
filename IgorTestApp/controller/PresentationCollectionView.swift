@@ -64,15 +64,15 @@ extension PresentationCollectionView : UICollectionViewDelegateFlowLayout {
             if(dto?.imageString?.count == 1) {
                 return CGSize(width: self.frame.size.width, height: self.frame.height)
             }
-            return CGSize(width: self.frame.size.width/1.2, height: self.frame.size.height)
+            return CGSize(width: self.frame.size.width/1.5, height: self.frame.size.height)
         case .vertical :
             self.isScrollEnabled = false
-            return CGSize(width: self.frame.size.width, height: self.frame.size.height/4.4)
+            return CGSize(width: self.frame.size.width, height: self.frame.size.height/4.6)
         case UICollectionView.ScrollDirection(rawValue: 3) :
             let padding : CGFloat = 50
             let collectionViewSize = collectionView.frame.size.width - padding
             return CGSize(width: collectionViewSize/1.8,
-                          height: collectionViewSize / 2)
+                          height: collectionViewSize / 2.4)
         case .none:
             return CGSize()
         @unknown default:
@@ -80,4 +80,3 @@ extension PresentationCollectionView : UICollectionViewDelegateFlowLayout {
         }
     }
 }
-

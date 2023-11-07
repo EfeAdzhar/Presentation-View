@@ -63,8 +63,11 @@
                                 </constraints>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="em3-OS-2Hz" customClass="PresentationCollectionView" customModule="IgorTestApp" customModuleProvider="target">
-                                <rect key="frame" x="20" y="367" width="388" height="354"/>
+                                <rect key="frame" x="20" y="367" width="388" height="315"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="315" id="llZ-2v-7mC"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ux1-Dc-GYd">
                                     <size key="itemSize" width="308" height="301"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -78,20 +81,19 @@
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IpO-wl-cGh" firstAttribute="leading" secondItem="kmH-Lu-Aao" secondAttribute="leading" constant="20" id="1ed-pJ-Bk9"/>
-                            <constraint firstItem="IpO-wl-cGh" firstAttribute="top" secondItem="em3-OS-2Hz" secondAttribute="bottom" constant="85" id="4HE-Wn-Gvg"/>
+                            <constraint firstItem="em3-OS-2Hz" firstAttribute="trailing" secondItem="Ypc-az-4bU" secondAttribute="trailing" id="6ik-0v-Z6u"/>
+                            <constraint firstItem="em3-OS-2Hz" firstAttribute="top" secondItem="Ypc-az-4bU" secondAttribute="bottom" constant="36" id="8Op-0y-eVZ"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="leading" secondItem="H4K-wV-kbS" secondAttribute="leading" id="AYg-Jf-kQK"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="dhe-B0-yni" secondAttribute="top" constant="241" id="GRo-Ep-S3V"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="IpO-wl-cGh" secondAttribute="trailing" constant="20" id="HqJ-cq-uKI"/>
                             <constraint firstItem="58i-lW-JYa" firstAttribute="leading" secondItem="kmH-Lu-Aao" secondAttribute="leading" constant="20" id="OmI-Vn-KKg"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" constant="20" id="QIe-ua-G9B"/>
                             <constraint firstItem="58i-lW-JYa" firstAttribute="top" secondItem="H4K-wV-kbS" secondAttribute="bottom" constant="98.666666666666629" id="Qsj-gQ-bVm"/>
-                            <constraint firstItem="em3-OS-2Hz" firstAttribute="top" secondItem="Ypc-az-4bU" secondAttribute="bottom" constant="36" id="Qsz-f9-23U"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="leading" secondItem="58i-lW-JYa" secondAttribute="leading" id="U8W-jC-rns"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="trailing" secondItem="58i-lW-JYa" secondAttribute="trailing" id="XWU-kc-ht6"/>
                             <constraint firstItem="kmH-Lu-Aao" firstAttribute="bottom" secondItem="IpO-wl-cGh" secondAttribute="bottom" constant="18" id="Yxn-zB-4of"/>
                             <constraint firstItem="Ypc-az-4bU" firstAttribute="top" secondItem="58i-lW-JYa" secondAttribute="bottom" constant="8.0000000000000284" id="Zcz-2C-Ko8"/>
-                            <constraint firstItem="em3-OS-2Hz" firstAttribute="leading" secondItem="Ypc-az-4bU" secondAttribute="leading" id="fIt-ay-6bP"/>
-                            <constraint firstItem="em3-OS-2Hz" firstAttribute="trailing" secondItem="Ypc-az-4bU" secondAttribute="trailing" id="n6k-cC-eVA"/>
+                            <constraint firstItem="em3-OS-2Hz" firstAttribute="leading" secondItem="Ypc-az-4bU" secondAttribute="leading" id="ubB-0N-qpN"/>
                         </constraints>
                     </view>
                     <connections>

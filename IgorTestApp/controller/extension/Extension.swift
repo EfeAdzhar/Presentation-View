@@ -40,3 +40,12 @@ extension PresentationViewController {
     }
 }
 
+extension PresentationViewController {
+    func setUpOutlets() {
+        self.continueButton.layer.cornerRadius = 30
+        self.image.layer.masksToBounds = true
+        self.image.layer.borderColor = UIColor.black.cgColor
+        self.image.layer.cornerRadius = image.frame.height / 2
+    }
+}
+

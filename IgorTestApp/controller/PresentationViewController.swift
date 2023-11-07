@@ -19,7 +19,7 @@ final class PresentationViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setUpFont()
-        self.continueButton.layer.cornerRadius = 30
+        self.setUpOutlets()
     }
     
     @IBAction func continuePressed(_ sender: UIButton) {
